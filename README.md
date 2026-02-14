@@ -1,6 +1,6 @@
 # Academic CV Website (Quarto)
 
-This repository now includes a Quarto website with separate pages for:
+Personal website built with Quarto. This repository includes:
 
 - `index.qmd` (home)
 - `research.qmd`
@@ -26,4 +26,3 @@ This repo includes `.github/workflows/publish.yml` to publish automatically.
 4. The workflow will render and deploy the site.
 
 Quarto is configured to render output into `docs/` via `_quarto.yml`.
-
