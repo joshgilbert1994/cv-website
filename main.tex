@@ -1,0 +1,417 @@
+% Document class
+\documentclass[12pt]{article}
+% Page geometry
+\usepackage[top=0.7in,right=0.7in,left=0.7in,bottom=0.7in]{geometry}
+% Hyperlinks (colors, URLs)
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+urlcolor=blue
+}
+% List control: enumitem for tight spacing, etaremune for reversed lists
+\usepackage{enumitem}
+\usepackage{etaremune}
+\setlist{nosep} % Removes extra vertical spacing in lists
+% Custom commands
+% \years places a year in the margin
+\newcommand{\years}[1]{\marginpar{#1}}
+% \ent creates a bullet entry with a small skip after it
+\newcommand{\ent}[1]{
+\noindent
+$\bullet$ #1
+\smallskip
+}
+% Headers/footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\lfoot{\thepage}
+\cfoot{}
+\rfoot{Updated \today} % Prints today's date
+\lhead{}
+\chead{}
+\rhead{}
+% Fonts
+\usepackage[T1]{fontenc}
+\usepackage{palatino} % Palatino text font
+% Misc packages
+\usepackage{url}
+\usepackage{multicol}
+
+
+\begin{document}
+\begin{center}
+{\LARGE Joshua Gilbert}\\
+\begin{multicols}{2}
+josh.b.gilbert@gmail.com \\
+617-797-2448 \\
+\columnbreak
+1475 Massachusetts Avenue \\
+Lexington MA 02420
+\end{multicols}
+\end{center}
+
+\section{Education}
+\begin{itemize}
+    \item \textsc{PhD --} Harvard Graduate School of Education \hfill 2022-2026 \\ Education Policy and Program Evaluation \\ 
+Committee: James Kim, Luke Miratrix, Ben Domingue \\
+Dissertation: Synthesizing Psychometrics and Causal Inference: Applications of Latent Variable Models to Treatment Heterogeneity, Psychological Networks, and Learning Transfer \\
+Spencer Dissertation Fellow (2025-2026)
+    \item \textsc{EdM --} Harvard Graduate School of Education \hfill 2016-2017
+    \item \textsc{BM --} New England Conservatory of Music \hfill 2012-2016
+\end{itemize}
+
+\section{Research Interests}
+
+\begin{itemize}
+    \item Item response theory, measurement, psychometrics
+    \item Causal inference, program evaluation, policy
+    \item Statistical methodology, computing, simulation
+    \item Research synthesis, meta-analysis, meta-science
+\end{itemize}
+
+\section{Publications}
+
+Notational Conventions \\
+
+ \begin{itemize}
+\item[]$\dagger$: Student collaborators with whom I engaged extensively during course of project.
+\item[]$\ddagger$: Paper on which I acted as a senior or corresponding author.
+\item[]*: Joint authorship.
+\item[]...: Lengthy authorship list (names omitted).
+\item []$[...]$: links to the article, replication materials, and media coverage, where applicable
+%  \item[]\$: Alphabetical ordering.
+ \end{itemize}
+
+\begin{etaremune}
+
+\subsection{Peer-Reviewed Journal Publications}
+
+\item \textbf{Gilbert, J. B.}, Young, W. S., Himmelsbach, Z., Ulitzsch, E., \& Domingue, B. W. (Accepted). Conditional dependencies between response time and item discrimination: An item-level meta-analysis. \textit{Educational and Psychological Measurement}. [\href{https://doi.org/10.31234/osf.io/rp34w_v2}{doi}] \label{rt_meta}
+\item \textbf{Gilbert, J. B.}, Soland, J. G., \& Domingue, B. W. (2026). The sensitivity of value-added estimates to test scoring decisions. \textit{Educational Measurement: Issues and Practice, 45}(1). [\href{http://dx.doi.org/10.1111/emip.70011}{doi}, \href{https://doi.org/10.7910/DVN/AJDUN2}{code}]
+\item \textbf{Gilbert, J. B.}, Himmelsbach, Z., Miratrix, L. W., Ho, A. D., \& Domingue, B. W. (2025). Item-level heterogeneity in value added models: Implications for reliability, cross-study comparability, and effect sizes. \textit{Journal of Educational and Behavioral Statistics}. [\href{https://journals.sagepub.com/doi/10.3102/10769986251393339}{doi}, \href{https://doi.org/10.7910/DVN/89YITQ}{code}] \label{item_vam} 
+\item \textbf{Gilbert, J. B.}, \& Miratrix, L. W. (2025). Multilevel metamodels: Enhancing inference, interpretability, and generalizability in Monte Carlo simulation studies. \textit{Multivariate Behavioral Research}. [\href{https://doi.org/10.1080/00273171.2025.2586631}{doi}, \href{https://researchbox.org/2429}{code}] \label{mlmm}
+\item Hoyek, S., \textbf{Gilbert, J. B.} ... \& Patel, N. A. (2025). Intraocular pressure changes following vitrectomy with and without phacoemulsification: An IRIS Registry analysis. \textit{Canadian Journal of Ophthalmology}. [\href{https://www.canadianjournalofophthalmology.ca/article/S0008-4182(25)00369-2/fulltext}{doi}]
+\item Nestorova, T., Nestorov, I., \textbf{Gilbert, J. B.}, \& Howell, I. (2025). Does vibrato define genre or vice versa? A novel parametric approach to vibrato analysis. \textit{Journal of Voice}. [\href{https://doi.org/10.1016/j.jvoice.2025.02.046}{doi}]
+\item \textbf{Gilbert, J. B.}, Domingue, B. W., \& Kim, J. S. (2025). Estimating causal effects on psychological networks using item response theory. \textit{Psychological Methods}. [\href{https://doi.org/10.1037/met0000764}{doi}, \href{https://doi.org/10.7910/DVN/CVO9EZ}{code}] \label{pm_net_psy} 
+\item Tainsh, L., Douglas, V. P., \textbf{Gilbert, J. B.} ... \& Lorch, A. (2025). Patient and practice level visual acuity prior to cataract surgery: An IRIS® Registry (Intelligent Research in Sight) analysis. \textit{Clinical Ophthalmology, 19}, 4975-4987. [\href{https://www.dovepress.com/articles.php?article_id=110610}{doi}]
+\item  \textbf{Gilbert, J. B.}, Himmelsbach, Z., Soland, J., Joshi, M., \& Domingue, B. W. (2025). Estimating heterogeneous treatment effects with item-level outcome data: Insights from item response theory. \textit{Journal of Policy Analysis and Management, 44}(4), 1417-1449. [\href{https://doi.org/10.1002/pam.70025}{doi}, \href{https://doi.org/10.7910/DVN/C4TJCA}{code}] \label{ilhte-econ}
+\item Domingue, B. W., Braginsky, M., Caffrey-Maffei, L. A., \textbf{Gilbert, J. B.} ... \& Frank, M. C. (2025). An introduction to the Item Response Warehouse (IRW): A resource for enhancing data usage in psychometrics. \textit{Behavior Research Methods, 57}, 276. [\href{https://doi.org/10.3758/s13428-025-02796-y}{doi}] 
+\item Vu, D. M., \textbf{Gilbert, J. B.}, ... \& Miller, J. W. (2025). Factors associated with gonioscopy coding before glaucoma procedures in the IRIS Registry. \textit{American Journal of Ophthalmology, 279}, 253-263. [\href{https://doi.org/10.1016/j.ajo.2025.08.001}{doi}]
+\item Zidan, A. A., \textbf{Gilbert, J. B.}, ... \& Yin, J. (2025). Neurotrophic keratopathy in pediatric population: An IRIS® Registry report. \textit{Ophthalmology, 132}(9), 1063-1066. [\href{https://doi.org/10.1016/j.ophtha.2025.04.020}{doi}]
+\item Relyea, J. E., \textbf{Gilbert, J. B.}, ... \& Kim, J. S. (2025). Asset-based implementation of structured adaptations in an online third-grade content literacy intervention. \textit{Reading Research Quarterly, 60}(4). [\href{https://doi.org/10.1002/rrq.70048}{doi}, \href{https://doi.org/10.7910/DVN/JDUIKT}{code}, \href{https://edworkingpapers.com/policy-practice-series/ai24-1001}{EWP Policy and Practice}] 
+\item \textbf{Gilbert, J. B.} (2025). Estimating treatment effects with the explanatory item response model. \textit{Journal of Research on Educational Effectiveness, 18}(1), 166-184. [\href{https://www.tandfonline.com/doi/pdf/10.1080/19345747.2023.2287601?casa_token=jiL645zCNgcAAAAA:vA7BqwhzE_Nd8ccnzawcInnJ8hnO1wYaNllU1PryObJBEv0iPavpbBBhdXgb81JFq6tnCf6uPzNx}{doi}, \href{https://researchbox.org/797}{code}]
+\item \textbf{Gilbert, J. B.} (2025). How measurement affects causal inference: Attenuation bias is (usually) more important than outcome scoring weights. \textit{Methodology, 21}(2), 91-122. [\href{https://doi.org/10.5964/meth.15773}{doi}, \href{https://researchbox.org/2289}{code}]
+\item \textbf{Gilbert, J. B.}, Zhang, L., Ulitzsch, E., \& Domingue, B. W. (2025). Polytomous explanatory item response models for item discrimination: Assessing negative-framing effects in social-emotional learning surveys. \textit{Behavior Research Methods, 57}, 109. [\href{https://doi.org/10.3758/s13428-025-02625-2}{doi}, \href{https://researchbox.org/3008}{code}]
+\item Ross, C., Ghauri, S., \textbf{Gilbert, J. B.} ... \& Krzystolik, M. G. (2025). Intravitreal antibiotics versus early vitrectomy plus intravitreal antibiotics for post-injection endophthalmitis: An IRIS registry (Intelligent Research in Sight) analysis. \textit{Ophthalmology Retina, 9}(3), 224-231. [\href{https://doi.org/10.1016/j.oret.2024.09.002}{doi}] \label{vitrectomy}
+\item Zidan, A. A., \textbf{Gilbert, J. B.} ... \& Yin, J. (2025). Nerve growth factor treatment for neurotrophic keratopathy in the IRIS registry. \textit{Ophthalmology, 132}(3), 368-370. [\href{https://doi.org/10.1016/j.ophtha.2024.10.036}{doi}]
+\item Ha, S. K.*, \textbf{Gilbert, J. B.}*, Le, E., Ross, C., \& Lorch, A. (2025). Impact of teleretinal screening program on diabetic retinopathy screening compliance rates in community health centers: a quasi-experimental study. \textit{BMC Health Services Research, 25}, 318. [\href{https://doi.org/10.1186/s12913-025-12472-8}{doi}, \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T5HXUE}{code}] \label{dr_comp}
+\item \textbf{Gilbert, J. B.}, Miratrix, L. W., Joshi, M., \& Domingue, B. W. (2025). Disentangling person-dependent and item-dependent causal effects: Applications of item response theory to the estimation of treatment effect heterogeneity. \textit{Journal of Educational and Behavioral Statistics, 50}(1), 72-101. [\href{https://doi.org/10.3102/10769986241240085}{doi}, \href{https://researchbox.org/2221}{code}] \label{jebs_disentangle}
+\item \textbf{Gilbert, J. B.}, Kim, J. S., \& Miratrix, L. W. (2024). Leveraging item parameter drift to assess transfer effects in vocabulary learning. \textit{Applied Measurement in Education, 37}(3), 240-257. [\href{https://doi.org/10.1080/08957347.2024.2386934}{doi}, \href{https://doi.org/10.7910/DVN/ZF1LKZ}{code}]
+\item  \textbf{Gilbert, J. B.}, Hieronymus, F., Eriksson, E., \& Domingue, B. W. (2024). Item-level heterogeneous treatment effects of Selective Serotonin Reuptake Inhibitors (SSRIs) on depression: Implications for inference, generalizability, and identification. \textit{Epidemiologic Methods, 13}(S2): 20240006, 1-17. [\href{https://doi.org/10.1515/em-2024-0006}{doi}, \href{https://researchbox.org/2494}{code}] \label{ssri}
+\item Kim, J. S., \textbf{Gilbert, J. B.}, ... \& Tvedt, J. N. (2024). Time to transfer: Long-term effects of a sustained and spiraled content literacy intervention in the elementary grades. \textit{Developmental Psychology, 60}(7), 1279-1297. [\href{https://doi.org/10.1037/dev0001710}{doi}, \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RKBVKY}{code}, \href{https://www.gse.harvard.edu/ideas/ed-magazine/24/05/phase-two-reach}{Harvard Ed. Magazine}, \href{https://www.nbcnews.com/now/video/new-program-tackles-literacy-challenges-in-classrooms-212046405968}{NBC News}, \href{https://hechingerreport.org/proof-points-learning-science-might-help-kids-read-better/}{Hechinger Report}, \href{https://metametricsinc.com/neenas-top-reading-research-picks-for-april-2024/}{MetaMetrics}, \href{https://www.aft.org/ae/winter2024-2025/catts_kamhi}{American Educator}, \href{https://nataliewexler.substack.com/p/beyond-reading-comprehension-strategies?utm_source=post-email-title&publication_id=443300&post_id=149031506&utm_campaign=email-post-title&isFreemail=true&r=1nz8v7&triedRedirect=true&utm_medium=email}{Minding the Gap}, \href{https://www.harvardmagazine.com/2024/09/harvard-reading-wars-literacy-education}{Harvard Magazine}] \label{time_to_transfer}
+\item \textbf{Gilbert, J. B.} (2024). Modeling item-level heterogeneous treatment effects: A tutorial with the glmer function from the lme4 package in R. \textit{Behavior Research Methods, 56}(5), 5055-5067. [\href{https://link.springer.com/article/10.3758/s13428-023-02245-8}{doi}, \href{https://researchbox.org/2054}{code}] \label{brm_tutorial}
+\item \textbf{Gilbert, J. B.}, Kim, J. S., \& Miratrix, L. W. (2023). Modeling item-level heterogeneous treatment effects with the explanatory item response model: Leveraging large-scale online assessments to pinpoint the impact of educational interventions. \textit{Journal of Educational and Behavioral Statistics}, \textit{48}(6), 889-913. [\href{https://journals.sagepub.com/doi/pdf/10.3102/10769986231171710?casa_token=x3jNXUGSOLcAAAAA:zaf5NeBKTwW6o0bXHueUS4Tak0FzZDBJVcDXUAE8txGAUDeCRyNhOhqsPLQb-q220kcrwRsOz2WS}{doi}, \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QARRYT}{code}] \label{jebs_ilhte}
+\item Relyea, J. E., Rich, P., Kim, J. S., \& \textbf{Gilbert, J. B.} (2023). The COVID-19 impact on reading achievement growth of Grade 3–5 students in a US urban school district: variation across student characteristics and instructional modalities. \textit{Reading and Writing}, \textit{36}(2), 317-346. [\href{https://link.springer.com/article/10.1007/s11145-022-10387-y}{doi}, \href{https://www.sciencedaily.com/releases/2022/11/221117102858.htm}{Science Daily}]
+\item Kim, J. S., Burkhauser, M. A., Relyea, J. E., \textbf{Gilbert, J. B.}, ... \& McIntyre, J. (2023). A longitudinal randomized trial of a sustained content literacy intervention from first to second grade: Transfer effects on students’ reading comprehension. \textit{Journal of Educational Psychology}, \textit{115}(1), 73-96. [\href{https://psycnet.apa.org/record/2022-69392-001}{doi}, \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LAWFFU}{code}, \href{https://supp.apa.org/psycarticles/supplemental/edu0000751/edu0000751_supp.html}{supplement}, \href{https://www.forbes.com/sites/nataliewexler/2023/02/22/new-study-suggests-standardized-reading-tests-miss-a-lot-of-learning/?sh=261d3314a46b}{Forbes}, \href{https://www.edweek.org/teaching-learning/what-is-background-knowledge-and-how-does-it-fit-into-the-science-of-reading/2023/01}{Education Week}] \label{more_g2} 
+\item Kim, J., \textbf{Gilbert, J.}, Yu, Q., \& Gale, C. (2021). Measures matter: A meta-analysis of the effects of educational apps on preschool to grade 3 children’s literacy and math skills. \textit{AERA Open}, \textit{7}, 23328584211004183. [\href{https://journals.sagepub.com/doi/pdf/10.1177/23328584211004183}{doi}, \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/V17T2Y}{code}, \href{https://www.nytimes.com/2024/04/17/opinion/educational-technology.html}{New York Times}] \label{app_meta}
+\item Scripp, L., \& \textbf{Gilbert, J.} (2016). Music plus music integration: A model for music education policy reform that reflects the evolution and success of arts integration practices in 21st century American public schools. \textit{Arts Education Policy Review}, \textit{117}(4), 186-202. [\href{https://www.tandfonline.com/doi/pdf/10.1080/10632913.2016.1211923?casa_token=Fm8q4coas4QAAAAA:E6YodjckmZmQkDolznV3o3q7sYDuoMgI1243nCxHDS2LHG6m3cF5kGRtUGqpwvGWJvc0-9my84Lq}{doi}]
+
+\subsection{Conference Papers}
+
+\item Isley, C., \textbf{Gilbert, J. B.} ... \& Goel, S. (Accepted). Assessing the quality of AI-generated exams: A large-scale field study. [\href{https://arxiv.org/abs/2508.08314}{doi}]
+\item Kakarla, S.$\dagger$, Yanney, L.$\dagger$, \textbf{Gilbert, J. B.}$\ddagger$ \& Domingue, B. W.$\ddagger$ (2025). Exploring item-level heterogeneous treatment effects in educational interventions through machine learning techniques and item response models. 2024 IEEE MIT Undergraduate Research Technology Conference (URTC), Cambridge, MA, USA. [\href{https://ieeexplore.ieee.org/document/10937510}{doi}]
+
+\subsection{Book Chapters}
+
+    \item Scripp, L., \& \textbf{Gilbert, J.} (2019). Human development through music. In L. Scripp \& B. Kaufman (Eds.) \textit{Music learning as youth development} (pp. 8-39). Routledge. [\href{https://www.routledge.com/Music-Learning-as-Youth-Development/Kaufman-Scripp/p/book/9781138347700#:~:text=Music%20Learning%20as%20Youth%20Development%20explores%20how%20music%20education%20programs,of%20life%2Dlong%20musical%20development.}{doi}]
+
+\subsection{Working Papers}
+
+\subsubsection{Manuscripts in Revision}
+
+\item Ghauri, S., Ross, C., \textbf{Gilbert, J. B.} ... \& Krzystolik, M. G. (2026). Timing and risk factors for post-injection endophthalmitis: A retrospective national study in the IRIS registry (Intelligent Research in Sight). Under revision in \textit{Ophthalmology Retina}. [\href{https://www.medrxiv.org/content/10.64898/2026.01.12.25336174v1}{doi}]
+\item \textbf{Gilbert, J. B.} (2026). Explanatory item response models for continuous data: A tutorial in R. Under revision in \textit{Behavior Research Methods}. [\href{https://osf.io/preprints/psyarxiv/qzxk5_v2}{doi}]
+\item Soland, J. \& \textbf{Gilbert, J. B.} (2026). Does socially desirable responding increase after an intervention? Implications for estimating treatment effects. Under revision in \textit{Behavior Research Methods}. [\href{https://doi.org/10.31234/osf.io/ujx4n_v3}{doi}]
+\item Nalbandyan, R., \textbf{Gilbert, J. B.}, Franco, V. R., \& Domingue, B. W. (2025). Signposts on the path from nominal to ordinal scales: Moving from a discrete to a continuous view. Under revision in \textit{Educational and Psychological Measurement}. [\href{https://osf.io/preprints/psyarxiv/zbv8f}{doi}]
+\item Burkhauser, M. A., Kim, J. S. ... \& \textbf{Gilbert, J. B.} (2025). Empower the few to reach the many: How school-based ``teacher innovators'' bridge research and practice. Under revision in \textit{Scientific Studies of Reading}. \label{more_ti}
+\item Berkowitz, S. T., \textbf{Gilbert, J. B.}, ... \& Finn, A. P. (2025). Characterization of intravitreal anti-VEGF injection transitions across bevacizumab, biosimilar, and branded medications: IRIS® (Intelligent Research in Sight) Registry study. Under revision in \textit{Journal of VitreoRetinal Diseases}.
+\item Armstrong-Carter, E., \textbf{Gilbert, J. B.}, Silfverskiold, T., Clark, L. E., \& Templin, T. (2024). Adolescents provide approximately \$15 billion worth of informal family caregiving services to the United States economy. Under revision in \textit{Children and Youth Services Review}. [\href{https://osf.io/preprints/psyarxiv/2dhtk_v3}{doi}]
+\item Halpin, P. F., \& \textbf{Gilbert, J. B.} (2024). Testing whether reported treatment effects are unduly influenced by item-level heterogeneity. Under revision in \textit{Journal of Research on Educational Effectiveness}. [\href{https://osf.io/preprints/psyarxiv/9ru45_v1}{doi}]
+
+\subsubsection{Manuscripts Under Review}
+
+\item \textbf{Gilbert, J. B.} \& Himmelsbach, Z. (2026). Why fadeout is (probably) worse than we think: Adjusting for correlated sampling error in meta-analyses of behavioral interventions. Under review in \textit{Psychological Methods}. [\href{https://edworkingpapers.com/ai26-1394}{doi}] \label{metareg}
+\item Student, S. R., \textbf{Gilbert, J. B.}, Eze, J., Young, W. S., \& Domingue, B. W. (2026). Item-level heterogeneous treatment effects in instrumental variables regression. Under review in \textit{Proceedings of the International Meeting of the Psychometric Society}. [\href{https://osf.io/preprints/psyarxiv/sudgt_v2}{doi}]
+\item Ashourizadeh, A.*, \textbf{Gilbert, J. B.}* ... \& Armstrong, G. W. (2026). Impact of cataract surgery on the risk of conversion from dry to neovascular age-related macular degeneration in the IRIS® Registry. Under review in \textit{Ophthalmology}. \label{amd_cat}
+\item Gilson, A. Vonsachang, H., \textbf{Gilbert, J. B.} ... \& Lindsay, J. L. (2025). Rates of laser peripheral iridotomy vs. lens extraction in the treatment of angle closure glaucoma: an IRIS® registry (Intelligent Research in Sight) analysis. Under review in \textit{Ophthalmology}.
+\item Zhang, L., Liu, Y., Molenaar, D.,\textbf{ Gilbert, J. B.}, Kanopka, K. \& Domingue, B. W. (2025). Realistic simulation of item difficulties. Under review in \textit{Behavior Research Mehthods}. [\href{https://osf.io/preprints/psyarxiv/jbhxy_v4}{doi}]
+\item \textbf{Gilbert, J. B.} \& Soland, J. (2024). Mechanisms of effect size differences between researcher developed and independently developed outcomes: An item-level meta-analysis. Under review in \textit{Multivariate Behavioral Research}. [\href{https://edworkingpapers.com/ai24-1082}{doi}]
+
+\subsubsection{Manuscripts in Preparation}
+
+% ideas: Measures Matter Update, NIA/IL-HTE Equivalence, MA of NIA (with former? unique effects, could distinguish between LV and network, bgms package?), perturbation graphs, MA of IRT models (scaling and pooling, tau as DIF), Idiographic IRT, NP in ed, continuous random factor loadings, quantile LVs, Ising meta, item parameter prediction with LLMs? large scale vocab NP analysis, causal models with RT (adaptive MORE paper)
+% VAM item het at T1 predict VA at T2 - Duflo 3 outcomes (VAM consistency)
+% mike hardy's paper
+% latent quantile reg - might be impossible
+% explanatory unipolar with BRMS
+% targets - Psychometrika, APM, JEM, Behaviormetrika, SEM, AMPPS, ORM, JCI, EEPA
+% longitudinal network strenght growth, LSA network summary (vocab semantic, Optimal music, 3x6 vs 6x3
+% meta analysis of ILHTE variance
+
+\item  Cho, S-J., \& \textbf{Gilbert, J. B.} (2026). Explanatory item response models with random item parameters and their applications.
+\item Veltri, G. A.* \& \textbf{Gilbert, J. B.}* (2026). Results from randomized controlled trials are highly sensitive to data preprocessing decisions: A multiverse analysis of 97 outcomes. [\href{https://doi.org/10.31222/osf.io/kbgc2_v1}{doi}]
+\item \textbf{Gilbert, J. B.} \& Kim, J. S. (2026). Mapping the mechanisms of interdisciplinary learning transfer from reading to math achievement: Evidence from a large-scale randomized controlled trial. [\href{https://edworkingpapers.com/ai26-1376}{doi}] \label{more_mediation}
+\item \textbf{Gilbert, J. B.}, Soland, J. G., \& Young, W. S. (2025). Evidence from dozens of randomized trials that science is undermined when researchers make common, unfounded assumptions about measurement.
+\item Student, S. R., Eze, J., \textbf{Gilbert, J. B.}, Young, W. S., \& Domingue, B. W. (2025). Expanding psychology’s causal toolkit: Latent outcomes and binary treatments in instrumental variables regression.
+\item Hart, E. R.*, \textbf{Gilbert, J. B.}*, Bailey, D., Watts, T. \& Domingue, B. W. (2025). Examining the role of measurement invariance in intervention impact persistence. [\href{https://osf.io/zsdv9}{preregistration}]
+\item Himmelsbach, Z. \& \textbf{Gilbert, J. B.} (2025). The case for Bayesian estimation of the D-study.
+\item Ashourizadeh, A.*, \textbf{Gilbert, J. B.}* ... \& Armstrong, G. W. (2025). Visual outcomes of cataract surgery in patients with age-related macular degeneration.
+
+\subsection{Popular Press}
+
+    \item \textbf{Gilbert J.}, \& Kim, J. (2023). Do Educational Apps Actually Help Kids Learn?  \textit{EducationWeek} [\href{https://www.edweek.org/technology/opinion-do-educational-apps-actually-help-kids-learn/2023/10}{link}]
+    \item Scripp, L. \& \textbf{Gilbert, J.} (2016) All that Matters is How Good it Sounds. \textit{VAN Magazine} [\href{https://van-magazine.com/mag/all-that-matters/}{link}]
+
+    \end{etaremune}
+
+\section{Experience}
+
+\subsection{Research}
+
+\begin{itemize}
+    \item Senior Researcher, Harvard READS Lab \hfill 2019-2022; 2024-2025
+    \item Research Assistant, Harvard READS Lab \hfill 2018-2019; 2022-2024
+    \item Research Associate, Center for Music and the Arts in Education \hfill 2014-2023
+    \item Research Assistant, Harvard Project Zero \hfill 2017
+\end{itemize}
+
+\subsection{Teaching}
+
+\subsubsection{Harvard Graduate School of Education Teaching Fellowships}
+
+\begin{itemize}
+    \item Statistical and Psychometric Methods for Educational Measurement (S061) \hfill 2024
+    \item Research Synthesis and Meta-Analysis (S032) \hfill 2022, 2024, 2026
+    \item Multilevel and Longitudinal Models (S043) \hfill 2023
+    \item The Practice of Learning Design (LDIT PCE) \hfill 2023
+    \item Statistical Methods for Applied Educational Research (S052) \hfill 2022, 2023
+    \item Applied Linear Regression (S030) \hfill 2018, 2019
+    \item Designing for Learning by Creating (T550) \hfill 2017, 2018
+
+\end{itemize}
+
+\subsubsection{New England Conservatory of Music}
+
+\begin{itemize}
+    \item Faculty, Music-in-Education (MIE) Department \hfill 2018-2023
+    \begin{itemize}
+        \item Music, Brain Development, and Learning (MIE 526)
+        \item Music-in-Education Seminar (MIE 511)
+        \item Introduction to Research Methods for Music Education (MIE 541)
+        \item Introduction to Music-in-Education (MIE 501)
+        \item Guided Internship Coordinator (MIE INT)
+    \end{itemize}
+    \item Faculty, School of Continuing Education \hfill 2019-2022
+    \item Chair, Music-in-Education Department \hfill 2021-2022
+\end{itemize}
+
+\subsection{Consulting}
+
+\begin{itemize}
+    \item     Survey Design and Psychometric Analysis, Boston Music Project \hfill 2024-2025
+    \item Statistical Methods, Massachusetts Eye and Ear Data Science Team \hfill 2023-present
+    \item  Graduate Research Advisor, Boston Conservatory at Berklee \hfill 2022-present
+\end{itemize}
+
+% \subsection{Other Affiliations}
+
+
+
+
+% \subsection{Previous Positions}
+
+
+  
+\section{Honors, Awards, and Funding}
+
+\begin{itemize}
+    \item Spencer Dissertation Fellowship \hfill 2025-2026 \\ National Academy of Education (\$27,500) [\href{https://naeducation.org/awardee/joshua-gilbert/}{link}]
+    \item Travel Grant, FREMO Conference \hfill 2025 \\  HGSE (\$500)
+    \item Travel Grant, IMPS Conference \hfill 2025 \\ IQSS (\$600)
+    \item Travel Grant, M3 Conference \hfill 2024 \\ HGSE (\$500)
+    \item Travel Grant, NCME Conference \hfill 2024 \\
+HGSE (\$500)
+    \item Fellow, Education Policy Academy (\href{https://www.aei.org/education-policy-academy/}{EPA}) \hfill 2023 \\American Enterprise Institute
+\end{itemize}
+
+\section{Presentations}
+
+% jose BC, lourens UvA
+
+Numbers in brackets link to the paper presented (includes upcoming presentations).
+
+\begin{etaremune}
+\subsection{Invited Talks}
+
+\item Caregie Mellon University [\ref{ilhte-econ}] \hfill Feb. 2026
+\item Center for School Behavioral Health [\ref{ilhte-econ}] \hfill Jan. 2026 \\
+Massachusetts General Hospital
+\item University of North Carolina, Chapel Hill [\ref{ilhte-econ}] \hfill Jan. 2026
+\item Educational Testing Service [\ref{ilhte-econ}] \hfill Jan. 2026
+\item Psychosystems Group [\ref{pm_net_psy}] \hfill Dec. 2025 \\ University of Amsterdam
+\item Quantitative Psychology Seminar [\ref{ilhte-econ}, \href{https://www.youtube.com/watch?v=Hm2pci-n-Bg}{video}] \hfill Nov. 2025 \\
+McGill University
+\item Joint Quantitative Brownbag [\ref{ilhte-econ}, \href{https://osu.zoom.us/rec/play/rSn9JffYCT0xgttCwOAYY-OVrRgFIxHlUdaN_jP-YWp_roziomm-mkzlYWx-15qN6EXlMYE1I3cjP7IH.snikx6YCf31QS-cj?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fosu.zoom.us%2Frec%2Fshare%2FtzAbx13OmJfcwAKypG1_8deX1rbruQIeWWkh7lTcdsTjcilj11abF51VDw_illXe.p7AaKkNRM9XNUe1v}{video}] \hfill Oct. 2025 \\
+Multiple Universities
+    \item Quantitative Methods Seminar [\ref{rt_meta}] \hfill Aug. 2025 \\
+    Georgia Institute of Technology
+    \item Center for Practice and Research at the Intersection of Information, Society, and Methodology (PRIISM) [\ref{ilhte-econ}, \href{https://www.youtube.com/watch?v=Khq4cd5z1nw&pp=0gcJCXcA-SJGOe9V}{video}] \hfill Apr. 2025 \\
+    New York University
+    \item CEP 982: Causal Inference in Education Research [\ref{ilhte-econ}] \hfill Feb. 2025 \\ Michigan State University
+    \item  EDUC 353A: Item Response Theory [\ref{brm_tutorial}, \ref{ilhte-econ}] \hfill Jan. 2025 \\
+    Stanford University
+    \item Grand Rounds [\ref{dr_comp}, \ref{vitrectomy}, \ref{amd_cat}, \href{https://www.youtube.com/watch?v=PeW9XygJaPY}{video}] \hfill Dec. 2024 \\
+    Boston Children's Hospital
+   \item School of Government [\ref{ilhte-econ}] \hfill Nov. 2024 \\
+    University of Chile
+    \item Berkeley Evaluation and Assessment Research [\ref{ilhte-econ}, \href{https://files.bearcenter.org/video/JGilbert_EstimatingHeterogeneousEffects_20241029.mp4}{video}, \href{https://files.bearcenter.org/papers/slides_20241029_JGilbert_EstimatingHeterogenousEffects.pdf}{slides}] \hfill Oct. 2024 \\
+    University of California, Berkeley
+    \item Institute for Quantitative Social Science [\ref{ilhte-econ}, \href{https://harvard.zoom.us/rec/play/lXkb7LzH6lPiAdDokPMkQgOoQKTp1T_vKTVKF81Zq1YoqS2eZ5B07lcC_elrFwHdt0Ii4xjGzHlxSBPq.4gvKyj7v5FZ0xcpi?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fharvard.zoom.us%2Frec%2Fshare%2FSCCxcknu75ClTBb4YZ5hVT3udEcO9YSyJNwGY9WdN_qg__Y7SppGMISwelujaoAt.bT--j12-GLBaCWJG}{video}] \hfill Sep. 2024 \\
+    Harvard University 
+    \item Centre for Research on Equality in Education [\ref{ilhte-econ}] \hfill May 2024 \\
+    University of Oslo
+    \item Biostatistics, Epidemiology, and Research Design Seminar [\ref{ssri}] \hfill Feb. 2024 \\
+    Tufts University
+
+\subsection{Workshops}
+
+\item International Meeting of the Psychometric Society [\ref{brm_tutorial}] \hfill Jul. 2025 
+\item National Council on Measurement in Education [\ref{brm_tutorial}] \hfill Apr. 2025 
+
+\subsection{Conferences}
+
+\begin{itemize}
+\item[]*: Session chair
+\item[] $\dagger$: Discussant
+\item[]$\ddagger$: Poster
+\end{itemize}
+
+\item National Council on Measurement in Education [\ref{rt_meta}] \hfill Apr. 2026
+\item American Educational Research Association$\ddagger$ [\ref{more_mediation}] \hfill Apr. 2026
+\item American Educational Research Association$\dagger$ [\ref{metareg}] \hfill Apr. 2026
+\item Society for Research on Educational Effectiveness [\ref{item_vam}, \ref{more_mediation}] \hfill Oct. 2025
+\item Frontier Research in Educational Measurement [\ref{item_vam}] \hfill Sep. 2025
+\item International Meeting of the Psychometric Society [\ref{pm_net_psy}, \ref{item_vam}*] \hfill Jul. 2025
+    \item National Council on Measurement in Education [\ref{pm_net_psy}] \hfill Apr. 2025 
+    \item How Should We Transform School Instruction to Address the Needs of All Students?$\dagger$ \hfill Apr. 2025
+        \item Harvard Medical School Data Science Symposium [\ref{dr_comp}$\ddagger$] \hfill Sep. 2024 
+    \item Society for Research on Educational Effectiveness [\ref{more_ti}] \hfill Sep. 2024
+    \item International Meeting of the Psychometric Society [\ref{jebs_disentangle}] \hfill Jul. 2024
+    \item Modern Modeling Methods [\ref{jebs_disentangle}, \href{https://modeling.media.uconn.edu/wp-content/uploads/sites/1188/2024/07/Disentangling-Person-Dependent-and-Item-Dependent-Causal-Effects-copy.pdf}{slides}] \hfill Jun. 2024
+    \item Society for Research on Educational Effectiveness [\ref{jebs_ilhte}] \hfill Sep. 2023 
+    \item Modern Modeling Methods [\ref{jebs_ilhte}, \href{https://modeling.uconn.edu/wp-content/uploads/sites/1188/2023/06/Gilbert_IL-HTE-Slides.pdf}{slides}] \hfill Jun. 2023
+
+\subsection{Seminars and Labs}
+
+    \item Harvard Educational Measurement Lab [\ref{metareg}] \hfill Jan. 2026
+    \item Harvard Doctoral Colloquium [\ref{item_vam}, \href{https://www.youtube.com/watch?v=Ll7zLhHDquw}{video}] \hfill Sep. 2025
+    \item Stanford Psychometrics Lab [\ref{item_vam}, \href{https://youtu.be/fRweFpub5q0}{video}] \hfill May 2025
+    \item Harvard Educational Measurement Lab [\ref{pm_net_psy}] \hfill Apr. 2025
+    \item Harvard CARES Lab [\ref{item_vam}] \hfill Feb. 2025
+    \item Harvard Economics of Education Workshop [\ref{item_vam}] \hfill Feb. 2025
+    \item Harvard Doctoral Colloquium [\ref{pm_net_psy}, \href{https://www.youtube.com/watch?v=9IOWOtSvnvs}{video}] \hfill Feb. 2025
+    \item Stanford Psychometrics Lab [\ref{pm_net_psy}, \href{https://www.youtube.com/watch?v=8VPFNCZj1sQ}{video}] \hfill Nov. 2024
+    \item Statistical and Psychometric Methods for Educational Measurement [\ref{brm_tutorial}] \hfill Apr. 2024
+    \item Harvard CARES Lab [\ref{jebs_disentangle}] \hfill Apr. 2024
+    \item Harvard Economics of Education Workshop [\ref{jebs_disentangle}] \hfill Mar. 2024
+    \item Stanford Psychometrics Lab [\ref{mlmm}] \hfill Jan. 2024
+    \item Stanford Psychometrics Lab [\ref{jebs_disentangle}] \hfill Nov. 2023
+    \item Harvard Educational Measurement Lab [\ref{jebs_disentangle}] \hfill Oct. 2023
+    \item Harvard Educational Measurement Lab [\ref{jebs_ilhte}] \hfill Apr. 2023
+    \item Harvard READS Lab [\ref{jebs_ilhte}] \hfill Apr. 2023
+
+\end{etaremune}
+
+\section{Service}
+
+\subsection{University Service}
+
+\begin{itemize}
+    \item Convener, HGSE Measurement Lab \hfill 2025-2026 \\ Harvard GSE
+    \item Faculty Search, Applied Quantitative Methods for Educational Research \hfill 2024 \\ Harvard GSE
+    \item Member, Faculty Council \hfill 2021-2022 \\ New England Conservatory
+\end{itemize}
+
+\subsection{Professional Organizations}
+
+\begin{itemize}
+    \item Standards and Test Use Committee \hfill 2024-2026 \\ National Council on Measurement in Education (NCME) [\href{https://www.ncme.org/community/ncme-committees/standard-test-use}{link}]
+\end{itemize}
+ 
+\subsection{Ad Hoc Review}
+
+Parentheses indicate multiple reviews at a journal. \\
+
+\begin{itemize}
+    \item Journals
+    \begin{itemize}
+        \item  Journal for Research on Educational Effectiveness (3)
+        \item British Journal of Mathematical and Statistical Psychology (2)
+        \item Journal of Educational Measurement (2)
+        \item Psychometrika
+        \item Behavior Research Methods
+        \item Journal of Educational and Behavioral Statistics
+        \item Review of Educational Research
+        \item Mind, Brain, and Education
+        \item BMC Psychology
+        \item BMC Medical Research Methodology
+    \end{itemize}
+    \item Conference Proposals
+    \begin{itemize}
+        \item Society for Research on Educational Effectiveness
+    \end{itemize}
+    \item NCES Psychometric Standards
+\end{itemize}
+
+\subsection{Other}
+
+\begin{itemize}
+    \item Data contributor, Item Response Warehouse (IRW) [\href{https://itemresponsewarehouse.org}{link}]
+\end{itemize}
+
+\section{Professional Affiliations}
+
+\begin{itemize}
+    \item Institute for Quantitative Social Science (IQSS) Graduate Student Affiliate [\href{https://www.iq.harvard.edu/people/joshua-gilbert}{link}]
+    \item American Educational Research Association (AERA)
+    \item National Council on Measurement in Education (NCME)
+    \item Psychometric Society
+    \item Society for Research on Educational Effectiveness (SREE)
+\end{itemize}
+
+\section{References}
+
+\begin{itemize}
+    \item James Kim \hfill james\_kim@gse.harvard.edu \\ Professor, Harvard GSE
+    \item Luke Miratrix \hfill luke\_miratrix@gse.harvard.edu \\ Professor, Harvard GSE
+    \item Andrew Ho \hfill andrew\_ho@gse.harvard.edu \\ Professor, Harvard GSE
+    \item Ben Domingue \hfill bdomingu@stanford.edu \\ Associate Professor, Stanford GSE
+    \item James Soland \hfill jgs8e@virginia.edu \\ Associate Professor, University of Virginia
+    \item Jackie Relyea \hfill jrelyea@ncsu.edu \\ Associate Professor, North Carolina State University
+\end{itemize}
+
+\section{External Links}
+
+\begin{itemize}
+    \item \href{https://scholar.google.com/citations?user=OCdG4IgAAAAJ&hl=en}{Google Scholar Profile}
+    \item \href{https://orcid.org/0000-0003-3496-2710}{ORCID Profile}
+    \item \href{https://sites.google.com/view/josh-gilbert/home}{Personal Website}
+    \item \href{https://www.linkedin.com/in/josh-b-gilbert/}{LinkedIn Profile}
+    \item \href{https://dataverse.harvard.edu/dataverse/josh_gilbert/}{Harvard Dataverse Page}
+\end{itemize}
+
+
+\end{document}

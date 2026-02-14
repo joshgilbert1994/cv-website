@@ -1,0 +1,35 @@
+---
+title: "Home"
+---
+
+# Joshua Gilbert
+
+PhD Candidate, Harvard Graduate School of Education (2022-2026)  
+Education Policy and Program Evaluation
+
+- Email: [josh.b.gilbert@gmail.com](mailto:josh.b.gilbert@gmail.com)
+- Phone: 617-797-2448
+- Address: 1475 Massachusetts Avenue, Lexington MA 02420
+
+## Education
+
+- **PhD**, Harvard Graduate School of Education (2022-2026)  
+  Dissertation: *Synthesizing Psychometrics and Causal Inference: Applications of Latent Variable Models to Treatment Heterogeneity, Psychological Networks, and Learning Transfer*  
+  Spencer Dissertation Fellow (2025-2026)
+- **EdM**, Harvard Graduate School of Education (2016-2017)
+- **BM**, New England Conservatory of Music (2012-2016)
+
+## Overview
+
+This site provides a multi-page academic profile with separate sections for:
+
+- [Research](research.qmd)
+- [Teaching](teaching.qmd)
+- [Service](service.qmd)
+
+## External Links
+
+- [Google Scholar](https://scholar.google.com/citations?user=OCdG4IgAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0000-0003-3496-2710)
+- [LinkedIn](https://www.linkedin.com/in/josh-b-gilbert/)
+- [Harvard Dataverse](https://dataverse.harvard.edu/dataverse/josh_gilbert/)

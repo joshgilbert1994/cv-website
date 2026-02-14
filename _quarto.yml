@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Joshua Gilbert"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: service.qmd
+        text: Service
+    right:
+      - href: https://scholar.google.com/citations?user=OCdG4IgAAAAJ&hl=en
+        text: Google Scholar
+      - href: https://orcid.org/0000-0003-3496-2710
+        text: ORCID
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css
+
