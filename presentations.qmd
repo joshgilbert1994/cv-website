@@ -4,6 +4,8 @@ title: "Conference Presentations"
 
 ## Conference Presentations
 
+This list includes upcoming presentations.
+
 Role markers:
 
 - `○`: Discussant
@@ -12,26 +14,26 @@ Role markers:
 
 ### 2026
 
-- National Council on Measurement in Education (Apr. 2026). Paper presented: *Conditional dependencies between response time and item discrimination: An item-level meta-analysis*. [paper](https://doi.org/10.31234/osf.io/rp34w_v2)
-- American Educational Research Association `●` (Apr. 2026). Paper presented: *Mapping the mechanisms of interdisciplinary learning transfer from reading to math achievement: Evidence from a large-scale randomized controlled trial*. [paper](https://edworkingpapers.com/ai26-1376)
-- American Educational Research Association `○` (Apr. 2026). Discussant role on: *Why fadeout is (probably) worse than we think: Adjusting for correlated sampling error in meta-analyses of behavioral interventions*. [paper](https://edworkingpapers.com/ai26-1394)
+- **National Council on Measurement in Education** (Apr. 2026). Paper presented: *Conditional dependencies between response time and item discrimination: An item-level meta-analysis*. [paper](https://doi.org/10.31234/osf.io/rp34w_v2)
+- **American Educational Research Association** `●` (Apr. 2026). Paper presented: *Mapping the mechanisms of interdisciplinary learning transfer from reading to math achievement: Evidence from a large-scale randomized controlled trial*. [paper](https://edworkingpapers.com/ai26-1376)
+- **American Educational Research Association** `○` (Apr. 2026). Discussant role on: *Why fadeout is (probably) worse than we think: Adjusting for correlated sampling error in meta-analyses of behavioral interventions*. [paper](https://edworkingpapers.com/ai26-1394)
 
 ### 2025
 
-- Society for Research on Educational Effectiveness (Oct. 2025). Papers presented: *Item-level heterogeneity in value added models: Implications for reliability, cross-study comparability, and effect sizes* ([paper](https://journals.sagepub.com/doi/10.3102/10769986251393339)); *Mapping the mechanisms of interdisciplinary learning transfer from reading to math achievement: Evidence from a large-scale randomized controlled trial* ([paper](https://edworkingpapers.com/ai26-1376)).
-- Frontier Research in Educational Measurement (Sep. 2025). Paper presented: *Item-level heterogeneity in value added models: Implications for reliability, cross-study comparability, and effect sizes*. [paper](https://journals.sagepub.com/doi/10.3102/10769986251393339)
-- International Meeting of the Psychometric Society `■` (Jul. 2025). Papers presented: *Estimating causal effects on psychological networks using item response theory* ([paper](https://doi.org/10.1037/met0000764)); *Item-level heterogeneity in value added models: Implications for reliability, cross-study comparability, and effect sizes* ([paper](https://journals.sagepub.com/doi/10.3102/10769986251393339)).
-- National Council on Measurement in Education (Apr. 2025). Paper presented: *Estimating causal effects on psychological networks using item response theory*. [paper](https://doi.org/10.1037/met0000764)
-- How Should We Transform School Instruction to Address the Needs of All Students? `○` (Apr. 2025). Discussant role (no paper presented).
+- **Society for Research on Educational Effectiveness** (Oct. 2025). Papers presented: *Item-level heterogeneity in value added models: Implications for reliability, cross-study comparability, and effect sizes* ([paper](https://journals.sagepub.com/doi/10.3102/10769986251393339)); *Mapping the mechanisms of interdisciplinary learning transfer from reading to math achievement: Evidence from a large-scale randomized controlled trial* ([paper](https://edworkingpapers.com/ai26-1376)).
+- **Frontier Research in Educational Measurement** (Sep. 2025). Paper presented: *Item-level heterogeneity in value added models: Implications for reliability, cross-study comparability, and effect sizes*. [paper](https://journals.sagepub.com/doi/10.3102/10769986251393339)
+- **International Meeting of the Psychometric Society** `■` (Jul. 2025). Papers presented: *Estimating causal effects on psychological networks using item response theory* ([paper](https://doi.org/10.1037/met0000764)); *Item-level heterogeneity in value added models: Implications for reliability, cross-study comparability, and effect sizes* ([paper](https://journals.sagepub.com/doi/10.3102/10769986251393339)).
+- **National Council on Measurement in Education** (Apr. 2025). Paper presented: *Estimating causal effects on psychological networks using item response theory*. [paper](https://doi.org/10.1037/met0000764)
+- **How Should We Transform School Instruction to Address the Needs of All Students?** `○` (Apr. 2025). Discussant role (no paper presented).
 
 ### 2024
 
-- Harvard Medical School Data Science Symposium `●` (Sep. 2024). Paper presented: *Impact of teleretinal screening program on diabetic retinopathy screening compliance rates in community health centers: a quasi-experimental study*. [paper](https://doi.org/10.1186/s12913-025-12472-8)
-- Society for Research on Educational Effectiveness (Sep. 2024). Paper presented: *Empower the few to reach the many: How school-based "teacher innovators" bridge research and practice* (manuscript in revision; no public paper link).
-- International Meeting of the Psychometric Society (Jul. 2024). Paper presented: *Disentangling person-dependent and item-dependent causal effects: Applications of item response theory to the estimation of treatment effect heterogeneity*. [paper](https://doi.org/10.3102/10769986241240085)
-- Modern Modeling Methods (Jun. 2024). Paper presented: *Disentangling person-dependent and item-dependent causal effects: Applications of item response theory to the estimation of treatment effect heterogeneity*. [paper](https://doi.org/10.3102/10769986241240085), [slides](https://modeling.media.uconn.edu/wp-content/uploads/sites/1188/2024/07/Disentangling-Person-Dependent-and-Item-Dependent-Causal-Effects-copy.pdf)
+- **Harvard Medical School Data Science Symposium** `●` (Sep. 2024). Paper presented: *Impact of teleretinal screening program on diabetic retinopathy screening compliance rates in community health centers: a quasi-experimental study*. [paper](https://doi.org/10.1186/s12913-025-12472-8)
+- **Society for Research on Educational Effectiveness** (Sep. 2024). Paper presented: *Empower the few to reach the many: How school-based "teacher innovators" bridge research and practice* (manuscript in revision; no public paper link).
+- **International Meeting of the Psychometric Society** (Jul. 2024). Paper presented: *Disentangling person-dependent and item-dependent causal effects: Applications of item response theory to the estimation of treatment effect heterogeneity*. [paper](https://doi.org/10.3102/10769986241240085)
+- **Modern Modeling Methods** (Jun. 2024). Paper presented: *Disentangling person-dependent and item-dependent causal effects: Applications of item response theory to the estimation of treatment effect heterogeneity*. [paper](https://doi.org/10.3102/10769986241240085), [slides](https://modeling.media.uconn.edu/wp-content/uploads/sites/1188/2024/07/Disentangling-Person-Dependent-and-Item-Dependent-Causal-Effects-copy.pdf)
 
 ### 2023
 
-- Society for Research on Educational Effectiveness (Sep. 2023). Paper presented: *Modeling item-level heterogeneous treatment effects with the explanatory item response model: Leveraging large-scale online assessments to pinpoint the impact of educational interventions*. [paper](https://journals.sagepub.com/doi/pdf/10.3102/10769986231171710)
-- Modern Modeling Methods (Jun. 2023). Paper presented: *Modeling item-level heterogeneous treatment effects with the explanatory item response model: Leveraging large-scale online assessments to pinpoint the impact of educational interventions*. [paper](https://journals.sagepub.com/doi/pdf/10.3102/10769986231171710), [slides](https://modeling.uconn.edu/wp-content/uploads/sites/1188/2023/06/Gilbert_IL-HTE-Slides.pdf)
+- **Society for Research on Educational Effectiveness** (Sep. 2023). Paper presented: *Modeling item-level heterogeneous treatment effects with the explanatory item response model: Leveraging large-scale online assessments to pinpoint the impact of educational interventions*. [paper](https://journals.sagepub.com/doi/pdf/10.3102/10769986231171710)
+- **Modern Modeling Methods** (Jun. 2023). Paper presented: *Modeling item-level heterogeneous treatment effects with the explanatory item response model: Leveraging large-scale online assessments to pinpoint the impact of educational interventions*. [paper](https://journals.sagepub.com/doi/pdf/10.3102/10769986231171710), [slides](https://modeling.uconn.edu/wp-content/uploads/sites/1188/2023/06/Gilbert_IL-HTE-Slides.pdf)
