@@ -4,6 +4,7 @@ Personal website built with Quarto. This repository includes:
 
 - `index.qmd` (home)
 - `research.qmd`
+- `presentations.qmd`
 - `teaching.qmd`
 - `service.qmd`
 

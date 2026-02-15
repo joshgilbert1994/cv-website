@@ -13,8 +13,8 @@ title: "Publications"
 
 Notational conventions:
 
-- `dagger`: Student collaborators with whom I engaged extensively during the project.
-- `ddagger`: Paper on which I acted as a senior or corresponding author.
+- `◇`: Student collaborators with whom I engaged extensively during the project.
+- `◆`: Paper on which I acted as a senior or corresponding author.
 - `*`: Joint authorship.
 - `...`: Lengthy authorship list (names omitted).
 
@@ -48,7 +48,7 @@ Notational conventions:
 - Relyea, J. E., **Gilbert, J. B.**, ... and Kim, J. S. (2025). Asset-based implementation of structured adaptations in an online third-grade content literacy intervention. *Reading Research Quarterly, 60*(4). [doi](https://doi.org/10.1002/rrq.70048), [code](https://doi.org/10.7910/DVN/JDUIKT), [EWP Policy and Practice](https://edworkingpapers.com/policy-practice-series/ai24-1001)
 - Ross, C., Ghauri, S., **Gilbert, J. B.** ... and Krzystolik, M. G. (2025). Intravitreal antibiotics versus early vitrectomy plus intravitreal antibiotics for post-injection endophthalmitis: An IRIS registry (Intelligent Research in Sight) analysis. *Ophthalmology Retina, 9*(3), 224-231. [doi](https://doi.org/10.1016/j.oret.2024.09.002)
 - Zidan, A. A., **Gilbert, J. B.** ... and Yin, J. (2025). Nerve growth factor treatment for neurotrophic keratopathy in the IRIS registry. *Ophthalmology, 132*(3), 368-370. [doi](https://doi.org/10.1016/j.ophtha.2024.10.036)
-- Ha, S. K.*, **Gilbert, J. B.**\*, Le, E., Ross, C., and Lorch, A. (2025). Impact of teleretinal screening program on diabetic retinopathy screening compliance rates in community health centers: a quasi-experimental study. *BMC Health Services Research, 25*, 318. [doi](https://doi.org/10.1186/s12913-025-12472-8), [code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T5HXUE)
+- Ha, S. K.\*, **Gilbert, J. B.**\*, Le, E., Ross, C., and Lorch, A. (2025). Impact of teleretinal screening program on diabetic retinopathy screening compliance rates in community health centers: a quasi-experimental study. *BMC Health Services Research, 25*, 318. [doi](https://doi.org/10.1186/s12913-025-12472-8), [code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T5HXUE)
 - Kim, J. S., **Gilbert, J. B.**, ... and Tvedt, J. N. (2024). Time to transfer: Long-term effects of a sustained and spiraled content literacy intervention in the elementary grades. *Developmental Psychology, 60*(7), 1279-1297. [doi](https://doi.org/10.1037/dev0001710), [code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RKBVKY)
 - Relyea, J. E., Rich, P., Kim, J. S., and **Gilbert, J. B.** (2023). The COVID-19 impact on reading achievement growth of Grade 3-5 students in a US urban school district: variation across student characteristics and instructional modalities. *Reading and Writing, 36*(2), 317-346. [doi](https://link.springer.com/article/10.1007/s11145-022-10387-y)
 - Kim, J. S., Burkhauser, M. A., Relyea, J. E., **Gilbert, J. B.**, ... and McIntyre, J. (2023). A longitudinal randomized trial of a sustained content literacy intervention from first to second grade: Transfer effects on students' reading comprehension. *Journal of Educational Psychology, 115*(1), 73-96. [doi](https://psycnet.apa.org/record/2022-69392-001), [code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LAWFFU)
@@ -58,7 +58,7 @@ Notational conventions:
 ### Conference Papers
 
 - Isley, C., **Gilbert, J. B.** ... and Goel, S. (Accepted). Assessing the quality of AI-generated exams: A large-scale field study. [doi](https://arxiv.org/abs/2508.08314)
-- Kakarla, S. (dagger), Yanney, L. (dagger), **Gilbert, J. B.** (ddagger), and Domingue, B. W. (ddagger) (2025). Exploring item-level heterogeneous treatment effects in educational interventions through machine learning techniques and item response models. 2024 IEEE MIT Undergraduate Research Technology Conference (URTC), Cambridge, MA, USA. [doi](https://ieeexplore.ieee.org/document/10937510)
+- Kakarla, S. (◇), Yanney, L. (◇), **Gilbert, J. B.** (◆), and Domingue, B. W. (◆) (2025). Exploring item-level heterogeneous treatment effects in educational interventions through machine learning techniques and item response models. 2024 IEEE MIT Undergraduate Research Technology Conference (URTC), Cambridge, MA, USA. [doi](https://ieeexplore.ieee.org/document/10937510)
 
 ### Book Chapters
 
@@ -81,7 +81,7 @@ Notational conventions:
 
 - **Gilbert, J. B.** and Himmelsbach, Z. (2026). Why fadeout is (probably) worse than we think: Adjusting for correlated sampling error in meta-analyses of behavioral interventions. Under review in *Psychological Methods*. [doi](https://edworkingpapers.com/ai26-1394)
 - Student, S. R., **Gilbert, J. B.**, Eze, J., Young, W. S., and Domingue, B. W. (2026). Item-level heterogeneous treatment effects in instrumental variables regression. Under review in *Proceedings of the International Meeting of the Psychometric Society*. [doi](https://osf.io/preprints/psyarxiv/sudgt_v2)
-- Ashourizadeh, A.*, **Gilbert, J. B.**\* ... and Armstrong, G. W. (2026). Impact of cataract surgery on the risk of conversion from dry to neovascular age-related macular degeneration in the IRIS Registry. Under review in *Ophthalmology*.
+- Ashourizadeh, A.\*, **Gilbert, J. B.**\* ... and Armstrong, G. W. (2026). Impact of cataract surgery on the risk of conversion from dry to neovascular age-related macular degeneration in the IRIS Registry. Under review in *Ophthalmology*.
 - Gilson, A. Vonsachang, H., **Gilbert, J. B.** ... and Lindsay, J. L. (2025). Rates of laser peripheral iridotomy vs. lens extraction in the treatment of angle closure glaucoma: an IRIS registry (Intelligent Research in Sight) analysis. Under review in *Ophthalmology*.
 - Zhang, L., Liu, Y., Molenaar, D., **Gilbert, J. B.**, Kanopka, K., and Domingue, B. W. (2025). Realistic simulation of item difficulties. Under review in *Behavior Research Mehthods*. [doi](https://osf.io/preprints/psyarxiv/jbhxy_v4)
 - **Gilbert, J. B.**, and Soland, J. (2024). Mechanisms of effect size differences between researcher developed and independently developed outcomes: An item-level meta-analysis. Under review in *Multivariate Behavioral Research*. [doi](https://edworkingpapers.com/ai24-1082)
@@ -89,13 +89,13 @@ Notational conventions:
 #### Manuscripts in Preparation / Preprints
 
 - Cho, S-J., and **Gilbert, J. B.** (2026). Explanatory item response models with random item parameters and their applications.
-- Veltri, G. A.*, and **Gilbert, J. B.**\* (2026). Results from randomized controlled trials are highly sensitive to data preprocessing decisions: A multiverse analysis of 97 outcomes. [doi](https://doi.org/10.31222/osf.io/kbgc2_v1)
+- Veltri, G. A.\*, and **Gilbert, J. B.**\* (2026). Results from randomized controlled trials are highly sensitive to data preprocessing decisions: A multiverse analysis of 97 outcomes. [doi](https://doi.org/10.31222/osf.io/kbgc2_v1)
 - **Gilbert, J. B.**, and Kim, J. S. (2026). Mapping the mechanisms of interdisciplinary learning transfer from reading to math achievement: Evidence from a large-scale randomized controlled trial. [doi](https://edworkingpapers.com/ai26-1376)
 - **Gilbert, J. B.**, Soland, J. G., and Young, W. S. (2025). Evidence from dozens of randomized trials that science is undermined when researchers make common, unfounded assumptions about measurement.
 - Student, S. R., Eze, J., **Gilbert, J. B.**, Young, W. S., and Domingue, B. W. (2025). Expanding psychology's causal toolkit: Latent outcomes and binary treatments in instrumental variables regression.
-- Hart, E. R.*, **Gilbert, J. B.**\*, Bailey, D., Watts, T., and Domingue, B. W. (2025). Examining the role of measurement invariance in intervention impact persistence. [preregistration](https://osf.io/zsdv9)
+- Hart, E. R.\*, **Gilbert, J. B.**\*, Bailey, D., Watts, T., and Domingue, B. W. (2025). Examining the role of measurement invariance in intervention impact persistence. [preregistration](https://osf.io/zsdv9)
 - Himmelsbach, Z., and **Gilbert, J. B.** (2025). The case for Bayesian estimation of the D-study.
-- Ashourizadeh, A.*, **Gilbert, J. B.**\* ... and Armstrong, G. W. (2025). Visual outcomes of cataract surgery in patients with age-related macular degeneration.
+- Ashourizadeh, A.\*, **Gilbert, J. B.**\* ... and Armstrong, G. W. (2025). Visual outcomes of cataract surgery in patients with age-related macular degeneration.
 
 ### Popular Press
 

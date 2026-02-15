@@ -10,6 +10,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: presentations.qmd
+        text: Presentations
       - href: teaching.qmd
         text: Teaching
       - href: service.qmd
@@ -25,4 +27,3 @@ format:
     theme: cosmo
     toc: true
     css: styles.css
-
