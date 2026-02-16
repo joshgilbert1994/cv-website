@@ -7,7 +7,7 @@ title: "Home"
 PhD Candidate, Harvard Graduate School of Education (2022-2026)  
 Education Policy and Program Evaluation
 
-- Email: [josh.b.gilbert@gmail.com](mailto:josh.b.gilbert@gmail.com)
+- Email: josh [dot] b [dot] gilbert [at] gmail [dot] com
 
 ## Education
 
@@ -23,6 +23,7 @@ This site provides a multi-page academic profile with separate sections for:
 
 - [Research](research.qmd)
 - [Teaching](teaching.qmd)
+- [Presentations](presentations.qmd)
 - [Service](service.qmd)
 
 ## External Links
