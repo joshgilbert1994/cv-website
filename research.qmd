@@ -22,6 +22,7 @@ Notational conventions:
 
 #### First/Sole Author
 
+- **Gilbert, J. B.** (Accepted). Explanatory item response models for continuous data: A tutorial in R. *Behavior Research Methods*. [doi](https://osf.io/preprints/psyarxiv/qzxk5_v2)
 - **Gilbert, J. B.**, Young, W. S., Himmelsbach, Z., Ulitzsch, E., and Domingue, B. W. (Accepted). Conditional dependencies between response time and item discrimination: An item-level meta-analysis. *Educational and Psychological Measurement*. [doi](https://doi.org/10.31234/osf.io/rp34w_v2)
 - **Gilbert, J. B.**, Soland, J. G., and Domingue, B. W. (2026). The sensitivity of value-added estimates to test scoring decisions. *Educational Measurement: Issues and Practice, 45*(1). [doi](http://dx.doi.org/10.1111/emip.70011), [code](https://doi.org/10.7910/DVN/AJDUN2)
 - **Gilbert, J. B.**, Himmelsbach, Z., Miratrix, L. W., Ho, A. D., and Domingue, B. W. (2025). Item-level heterogeneity in value added models: Implications for reliability, cross-study comparability, and effect sizes. *Journal of Educational and Behavioral Statistics*. [doi](https://journals.sagepub.com/doi/10.3102/10769986251393339), [code](https://doi.org/10.7910/DVN/89YITQ)
@@ -69,7 +70,6 @@ Notational conventions:
 #### Manuscripts in Revision
 
 - Ghauri, S., Ross, C., **Gilbert, J. B.** ... and Krzystolik, M. G. (2026). Timing and risk factors for post-injection endophthalmitis: A retrospective national study in the IRIS registry (Intelligent Research in Sight). Under revision in *Ophthalmology Retina*. [doi](https://www.medrxiv.org/content/10.64898/2026.01.12.25336174v1)
-- **Gilbert, J. B.** (2026). Explanatory item response models for continuous data: A tutorial in R. Under revision in *Behavior Research Methods*. [doi](https://osf.io/preprints/psyarxiv/qzxk5_v2)
 - Soland, J. and **Gilbert, J. B.** (2026). Does socially desirable responding increase after an intervention? Implications for estimating treatment effects. Under revision in *Behavior Research Methods*. [doi](https://doi.org/10.31234/osf.io/ujx4n_v3)
 - Nalbandyan, R., **Gilbert, J. B.**, Franco, V. R., and Domingue, B. W. (2025). Signposts on the path from nominal to ordinal scales: Moving from a discrete to a continuous view. Under revision in *Educational and Psychological Measurement*. [doi](https://osf.io/preprints/psyarxiv/zbv8f)
 - Burkhauser, M. A., Kim, J. S. ... and **Gilbert, J. B.** (2025). Empower the few to reach the many: How school-based "teacher innovators" bridge research and practice. Under revision in *Scientific Studies of Reading*.

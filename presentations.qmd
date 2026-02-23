@@ -1,6 +1,36 @@
 ---
-title: "Conference Presentations"
+title: "Presentations"
 ---
+
+## Invited Talks
+
+### 2026
+
+- **Metrics and Models** (Mar. 2026). Invited talk at Oxford University.
+- **EDUC 353A: Item Response Theory** (Feb. 2026). Invited talk at Stanford University.
+- **Carnegie Mellon University** (Feb. 2026). Invited talk.
+- **Center for School Behavioral Health** (Jan. 2026). Invited talk at Massachusetts General Hospital.
+- **University of North Carolina, Chapel Hill** (Jan. 2026). Invited talk.
+- **Educational Testing Service** (Jan. 2026). Invited talk.
+
+### 2025
+
+- **Psychosystems Group** (Dec. 2025). Invited talk at University of Amsterdam.
+- **Quantitative Psychology Seminar** (Nov. 2025). Invited talk at McGill University. [video](https://www.youtube.com/watch?v=Hm2pci-n-Bg)
+- **Joint Quantitative Brownbag** (Oct. 2025). Invited talk at multiple universities. [video](https://osu.zoom.us/rec/play/rSn9JffYCT0xgttCwOAYY-OVrRgFIxHlUdaN_jP-YWp_roziomm-mkzlYWx-15qN6EXlMYE1I3cjP7IH.snikx6YCf31QS-cj?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fosu.zoom.us%2Frec%2Fshare%2FtzAbx13OmJfcwAKypG1_8deX1rbruQIeWWkh7lTcdsTjcilj11abF51VDw_illXe.p7AaKkNRM9XNUe1v)
+- **Quantitative Methods Seminar** (Aug. 2025). Invited talk at Georgia Institute of Technology.
+- **Center for Practice and Research at the Intersection of Information, Society, and Methodology (PRIISM)** (Apr. 2025). Invited talk at New York University. [video](https://www.youtube.com/watch?v=Khq4cd5z1nw&pp=0gcJCXcA-SJGOe9V)
+- **CEP 982: Causal Inference in Education Research** (Feb. 2025). Invited talk at Michigan State University.
+- **EDUC 353A: Item Response Theory** (Jan. 2025). Invited talk at Stanford University.
+
+### 2024
+
+- **Grand Rounds** (Dec. 2024). Invited talk at Boston Children's Hospital. [video](https://www.youtube.com/watch?v=PeW9XygJaPY)
+- **School of Government** (Nov. 2024). Invited talk at University of Chile.
+- **Berkeley Evaluation and Assessment Research** (Oct. 2024). Invited talk at University of California, Berkeley. [video](https://files.bearcenter.org/video/JGilbert_EstimatingHeterogeneousEffects_20241029.mp4), [slides](https://files.bearcenter.org/papers/slides_20241029_JGilbert_EstimatingHeterogenousEffects.pdf)
+- **Institute for Quantitative Social Science** (Sep. 2024). Invited talk at Harvard University. [video](https://harvard.zoom.us/rec/play/lXkb7LzH6lPiAdDokPMkQgOoQKTp1T_vKTVKF81Zq1YoqS2eZ5B07lcC_elrFwHdt0Ii4xjGzHlxSBPq.4gvKyj7v5FZ0xcpi?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fharvard.zoom.us%2Frec%2Fshare%2FSCCxcknu75ClTBb4YZ5hVT3udEcO9YSyJNwGY9WdN_qg__Y7SppGMISwelujaoAt.bT--j12-GLBaCWJG)
+- **Centre for Research on Equality in Education** (May 2024). Invited talk at University of Oslo.
+- **Biostatistics, Epidemiology, and Research Design Seminar** (Feb. 2024). Invited talk at Tufts University.
 
 ## Conference Presentations
 
