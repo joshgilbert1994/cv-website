@@ -168,6 +168,27 @@
     "text": "PhD Candidate, Harvard Graduate School of Education (2022-2026)\nEducation Policy and Program Evaluation\n\nEmail: josh [dot] b [dot] gilbert [at] gmail [dot] com\n\n\n\n\nPhD, Harvard Graduate School of Education (2022-2026)\nDissertation: Synthesizing Psychometrics and Causal Inference: Applications of Latent Variable Models to Treatment Heterogeneity, Psychological Networks, and Learning Transfer\nSpencer Dissertation Fellow (2025-2026)\nEdM, Harvard Graduate School of Education (2016-2017)\nBM, New England Conservatory of Music (2012-2016)\n\n\n\n\nThis site provides a multi-page academic profile with separate sections for:\n\nResearch\nTeaching\nPresentations\nService\n\n\n\n\n\nGoogle Scholar\nORCID\nLinkedIn\nHarvard Dataverse"
   },
   {
+    "objectID": "rct-datasets.html",
+    "href": "rct-datasets.html",
+    "title": "Item-Level RCT Datasets",
+    "section": "",
+    "text": "To support my interests in psychometrics and causal inference and to enhance research in this area generally, I have curated a collection of empirical item-level outcome data from RCTs. The datasets are publicly accessible in a harmonized format on the Item Response Warehouse (IRW). At present, the RCT datasets in the IRW span over 100 outcome measures across dozens of RCTs in education, psychology, economics, and health. The datasets all begin with the prefix gilbert_meta in the IRW for ease of access and analysis."
+  },
+  {
+    "objectID": "rct-datasets.html#derivative-research",
+    "href": "rct-datasets.html#derivative-research",
+    "title": "Item-Level RCT Datasets",
+    "section": "Derivative Research",
+    "text": "Derivative Research\nThese item-level datasets have supported research on:\n\nitem-level heterogeneous treatment effects,\nsensitivity of value-added and average treatment effect estimates to measurement and preprocessing choices,\nattenuation bias and outcome scaling,\nsocially desirable responding in intervention studies.\n\nPublications using these data include:\n\nGilbert et al. (2025), Journal of Policy Analysis and Management\nGilbert et al. (2025), Journal of Educational and Behavioral Statistics\nGilbert et al. (2026), Educational Measurement: Issues and Practice\nGilbert (2025), Methodology\nHalpin and Gilbert (2024), preprint\nSoland and Gilbert (2026), preprint\nVeltri and Gilbert (2026), preprint"
+  },
+  {
+    "objectID": "rct-datasets.html#citation-guidance",
+    "href": "rct-datasets.html#citation-guidance",
+    "title": "Item-Level RCT Datasets",
+    "section": "Citation Guidance",
+    "text": "Citation Guidance\nWhen using this work, please cite the IRW paper, the original primary studies for each dataset, and my Journal of Policy Analysis and Management paper where I first gathered these data."
+  },
+  {
     "objectID": "presentations.html",
     "href": "presentations.html",
     "title": "Presentations",

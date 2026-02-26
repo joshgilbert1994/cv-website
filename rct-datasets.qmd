@@ -1,0 +1,30 @@
+---
+title: "Item-Level RCT Datasets"
+---
+
+## Summary
+
+To support my interests in psychometrics and causal inference and to enhance research in this area generally, I have curated a collection of empirical **item-level** outcome data from RCTs. The datasets are publicly accessible in a harmonized format on the [Item Response Warehouse (IRW)](https://doi.org/10.3758/s13428-025-02796-y). At present, the RCT datasets in the IRW span over 100 outcome measures across dozens of RCTs in education, psychology, economics, and health. The datasets all begin with the prefix `gilbert_meta` in the IRW for ease of access and analysis.
+
+## Derivative Research
+
+These item-level datasets have supported research on:
+
+- item-level heterogeneous treatment effects,
+- sensitivity of value-added and average treatment effect estimates to measurement and preprocessing choices,
+- attenuation bias and outcome scaling,
+- socially desirable responding in intervention studies.
+
+Publications using these data include:
+
+- [Gilbert et al. (2025), *Journal of Policy Analysis and Management*](https://doi.org/10.1002/pam.70025)
+- [Gilbert et al. (2025), *Journal of Educational and Behavioral Statistics*](https://journals.sagepub.com/doi/10.3102/10769986251393339)
+- [Gilbert et al. (2026), *Educational Measurement: Issues and Practice*](http://dx.doi.org/10.1111/emip.70011)
+- [Gilbert (2025), *Methodology*](https://doi.org/10.5964/meth.15773)
+- [Halpin and Gilbert (2024), preprint](https://osf.io/preprints/psyarxiv/9ru45_v1)
+- [Soland and Gilbert (2026), preprint](https://doi.org/10.31234/osf.io/ujx4n_v3)
+- [Veltri and Gilbert (2026), preprint](https://doi.org/10.31222/osf.io/kbgc2_v1)
+
+## Citation Guidance
+
+When using this work, please cite the IRW paper, the original primary studies for each dataset, and my *Journal of Policy Analysis and Management* paper where I first gathered these data.

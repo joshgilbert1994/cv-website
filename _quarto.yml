@@ -10,6 +10,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: rct-datasets.qmd
+        text: RCT Datasets
       - href: presentations.qmd
         text: Presentations
       - href: teaching.qmd
