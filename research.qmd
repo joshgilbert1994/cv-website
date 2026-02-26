@@ -9,6 +9,10 @@ title: "Publications"
 - Statistical methodology, computing, simulation
 - Research synthesis, meta-analysis, meta-science
 
+## Google Scholar Metrics
+
+{{< include generated/scholar-stats.md >}}
+
 ## Publications
 
 Notational conventions:
