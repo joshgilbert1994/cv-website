@@ -7,6 +7,13 @@ profile_url <- sprintf("https://scholar.google.com/citations?user=%s&hl=en", use
 
 dir.create(dirname(out_file), recursive = TRUE, showWarnings = FALSE)
 
+`%||%` <- function(x, y) {
+  if (is.null(x) || length(x) == 0 || is.na(x)) {
+    return(y)
+  }
+  x
+}
+
 format_metric <- function(x) {
   if (is.na(x)) {
     return("NA")
@@ -42,36 +49,137 @@ extract_tag_text <- function(html, pattern, tag) {
   trimws(cleaned)
 }
 
-fetch_profile_html <- function(url) {
-  command <- paste(
-    "curl -fsSL --retry 3 --retry-delay 2",
-    "-A", shQuote("Mozilla/5.0"),
-    shQuote(url),
-    "2>&1"
-  )
+parse_integer_metric <- function(x) {
+  x <- gsub("[^0-9]", "", x)
+  if (!nzchar(x)) {
+    return(NA_integer_)
+  }
+  as.integer(x)
+}
 
-  output <- suppressWarnings(system(command, intern = TRUE, ignore.stderr = FALSE))
-  status <- attr(output, "status")
-
-  if (!is.null(status) && status != 0) {
-    msg <- if (length(output)) paste(output, collapse = "\n") else sprintf("curl exited with status %s", status)
-    stop(msg)
+read_existing_stats <- function(path) {
+  if (!file.exists(path)) {
+    return(NULL)
   }
 
-  paste(output, collapse = "\n")
+  lines <- readLines(path, warn = FALSE)
+  if (!length(lines)) {
+    return(NULL)
+  }
+
+  updated_line <- grep("^_Last updated:\\s*.+\\._$", lines, value = TRUE)
+  updated_at <- NA_character_
+  if (length(updated_line)) {
+    updated_at <- sub("^_Last updated:\\s*(.+)\\._$", "\\1", updated_line[1])
+  }
+
+  header_line <- grep("^\\|\\s*Metric\\s*\\|\\s*All\\s*\\|", lines, value = TRUE)
+  since_label <- "Since recent years"
+  if (length(header_line)) {
+    since_label <- sub("^\\|\\s*Metric\\s*\\|\\s*All\\s*\\|\\s*(.+?)\\s*\\|\\s*$", "\\1", header_line[1], perl = TRUE)
+  }
+
+  read_metric_row <- function(metric_name) {
+    escaped <- gsub("([.|()\\^{}+$*?\\[\\]\\\\])", "\\\\\\1", metric_name, perl = TRUE)
+    pattern <- sprintf("^\\|\\s*%s\\s*\\|\\s*([^|]+?)\\s*\\|\\s*([^|]+?)\\s*\\|\\s*$", escaped)
+    match_line <- grep(pattern, lines, value = TRUE, perl = TRUE)
+    if (!length(match_line)) {
+      return(c(NA_integer_, NA_integer_))
+    }
+    captures <- regmatches(match_line[1], regexec(pattern, match_line[1], perl = TRUE))[[1]]
+    c(parse_integer_metric(captures[2]), parse_integer_metric(captures[3]))
+  }
+
+  citations <- read_metric_row("Citations")
+  h_index <- read_metric_row("h-index")
+  i10_index <- read_metric_row("i10-index")
+
+  metrics <- list(
+    citations_all = citations[1],
+    citations_since = citations[2],
+    h_all = h_index[1],
+    h_since = h_index[2],
+    i10_all = i10_index[1],
+    i10_since = i10_index[2]
+  )
+
+  if (all(is.na(unlist(metrics)))) {
+    return(NULL)
+  }
+
+  list(
+    updated_at = updated_at,
+    since_label = since_label,
+    metrics = metrics
+  )
+}
+
+parse_citations_from_meta <- function(html) {
+  match <- regexpr("Cited by\\s*([0-9,]+)", html, perl = TRUE, ignore.case = TRUE)
+  if (length(match) == 1 && match[1] == -1) {
+    return(NA_integer_)
+  }
+  raw <- regmatches(html, match)
+  as.integer(gsub("[^0-9]", "", raw))
+}
+
+fetch_profile_html <- function(url) {
+  user_agents <- c(
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15"
+  )
+
+  last_error <- "Unknown error fetching Scholar profile."
+
+  for (agent in user_agents) {
+    command <- paste(
+      "curl -fsSL --retry 5 --retry-all-errors --retry-delay 2 --connect-timeout 15 --max-time 60 --compressed",
+      "-H", shQuote("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"),
+      "-H", shQuote("Accept-Language: en-US,en;q=0.9"),
+      "-A", shQuote(agent),
+      shQuote(url),
+      "2>&1"
+    )
+
+    output <- suppressWarnings(system(command, intern = TRUE, ignore.stderr = FALSE))
+    status <- attr(output, "status")
+    html <- paste(output, collapse = "\n")
+
+    if (!is.null(status) && status != 0) {
+      last_error <- if (length(output)) {
+        paste(output, collapse = "\n")
+      } else {
+        sprintf("curl exited with status %s", status)
+      }
+      next
+    }
+
+    if (grepl("unusual traffic|captcha|/sorry/", html, ignore.case = TRUE)) {
+      last_error <- "Google Scholar returned an anti-bot/interstitial response."
+      next
+    }
+
+    return(html)
+  }
+
+  stop(last_error)
 }
 
 parse_metrics <- function(html) {
-  header_values <- extract_tag_text(html, "<th class=\"gsc_rsb_sth\">[^<]*</th>", "th")
+  header_values <- extract_tag_text(
+    html,
+    "<th[^>]*class=\"[^\"]*gsc_rsb_sth[^\"]*\"[^>]*>[^<]*</th>",
+    "th"
+  )
   header_values <- header_values[nzchar(header_values)]
   since_label <- if (length(header_values) >= 2) header_values[2] else "Since recent years"
 
-  stat_values <- extract_tag_text(html, "<td class=\"gsc_rsb_std\">[^<]*</td>", "td")
-  stat_values <- gsub(",", "", stat_values, fixed = TRUE)
-  stat_values <- trimws(stat_values)
-  stat_values[stat_values %in% c("", "\u2014", "-")] <- NA_character_
-
-  stat_numbers <- suppressWarnings(as.integer(stat_values))
+  stat_values <- extract_tag_text(
+    html,
+    "<td[^>]*class=\"[^\"]*gsc_rsb_std[^\"]*\"[^>]*>[^<]*</td>",
+    "td"
+  )
+  stat_numbers <- vapply(stat_values, parse_integer_metric, integer(1))
 
   if (length(stat_numbers) < 6 || any(is.na(stat_numbers[1:6]))) {
     stop("Unable to parse Scholar metrics from profile HTML.")
@@ -90,7 +198,7 @@ parse_metrics <- function(html) {
   )
 }
 
-existing_file <- file.exists(out_file)
+existing_stats <- read_existing_stats(out_file)
 
 result <- tryCatch({
   html <- fetch_profile_html(profile_url)
@@ -98,29 +206,53 @@ result <- tryCatch({
   updated <- format(Sys.time(), "%Y-%m-%d %H:%M UTC", tz = "UTC")
   write_stats_markdown(out_file, updated, parsed$since_label, parsed$metrics)
   message(sprintf("Updated Scholar metrics: %s", out_file))
-  TRUE
+  list(success = TRUE, html = html)
 }, error = function(e) {
   message(sprintf("Scholar update failed: %s", conditionMessage(e)))
-  FALSE
+  list(success = FALSE, error = conditionMessage(e))
 })
 
-if (!result && !existing_file) {
-  placeholder <- list(
-    citations_all = NA_integer_,
-    citations_since = NA_integer_,
-    h_all = NA_integer_,
-    h_since = NA_integer_,
-    i10_all = NA_integer_,
-    i10_since = NA_integer_
-  )
-
+if (!result$success) {
   updated <- format(Sys.time(), "%Y-%m-%d %H:%M UTC", tz = "UTC")
-  write_stats_markdown(
-    out_file,
-    updated,
-    "Since recent years",
-    placeholder,
-    note = "Unable to refresh Google Scholar data during this build. The next scheduled run will retry automatically."
-  )
-  message(sprintf("Wrote placeholder Scholar metrics: %s", out_file))
+  meta_citations <- if (!is.null(result$html)) parse_citations_from_meta(result$html) else NA_integer_
+
+  if (!is.null(existing_stats)) {
+    fallback_metrics <- existing_stats$metrics
+    if (!is.na(meta_citations)) {
+      fallback_metrics$citations_all <- meta_citations
+    }
+
+    last_success <- existing_stats$updated_at %||% "the previous successful update"
+    note <- sprintf(
+      "Automatic refresh failed; showing last known Scholar metrics from %s. The next scheduled run will retry automatically.",
+      last_success
+    )
+
+    write_stats_markdown(
+      out_file,
+      updated,
+      existing_stats$since_label %||% "Since recent years",
+      fallback_metrics,
+      note = note
+    )
+    message(sprintf("Wrote fallback Scholar metrics from existing data: %s", out_file))
+  } else {
+    placeholder <- list(
+      citations_all = NA_integer_,
+      citations_since = NA_integer_,
+      h_all = NA_integer_,
+      h_since = NA_integer_,
+      i10_all = NA_integer_,
+      i10_since = NA_integer_
+    )
+
+    write_stats_markdown(
+      out_file,
+      updated,
+      "Since recent years",
+      placeholder,
+      note = "Unable to refresh Google Scholar data during this build. The next scheduled run will retry automatically."
+    )
+    message(sprintf("Wrote placeholder Scholar metrics: %s", out_file))
+  }
 }

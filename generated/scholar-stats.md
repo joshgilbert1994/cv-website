@@ -1,8 +1,8 @@
-_Last updated: 2026-02-26 18:43 UTC._
+_Last updated: 2026-02-28 12:50 UTC._
 
 | Metric | All | Since 2021 |
 |---|---:|---:|
-| Citations | 738 | 713 |
+| Citations | 740 | 715 |
 | h-index | 14 | 14 |
 | i10-index | 17 | 17 |
 
