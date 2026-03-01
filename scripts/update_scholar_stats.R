@@ -4,6 +4,10 @@ default_user_id <- "OCdG4IgAAAAJ"
 user_id <- Sys.getenv("SCHOLAR_USER_ID", unset = default_user_id)
 out_file <- Sys.getenv("SCHOLAR_OUTPUT_FILE", unset = "generated/scholar-stats.md")
 profile_url <- sprintf("https://scholar.google.com/citations?user=%s&hl=en", user_id)
+max_fetch_attempts <- suppressWarnings(as.integer(Sys.getenv("SCHOLAR_FETCH_ATTEMPTS", unset = "3")))
+if (is.na(max_fetch_attempts) || max_fetch_attempts < 1) {
+  max_fetch_attempts <- 3L
+}
 
 dir.create(dirname(out_file), recursive = TRUE, showWarnings = FALSE)
 
@@ -124,6 +128,12 @@ parse_citations_from_meta <- function(html) {
 }
 
 fetch_profile_html <- function(url) {
+  profile_urls <- unique(c(
+    url,
+    sprintf("%s&view_op=list_works", url),
+    sprintf("%s&view_op=list_works&sortby=pubdate", url)
+  ))
+
   user_agents <- c(
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15"
@@ -131,35 +141,64 @@ fetch_profile_html <- function(url) {
 
   last_error <- "Unknown error fetching Scholar profile."
 
-  for (agent in user_agents) {
-    command <- paste(
-      "curl -fsSL --retry 5 --retry-all-errors --retry-delay 2 --connect-timeout 15 --max-time 60 --compressed",
-      "-H", shQuote("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"),
-      "-H", shQuote("Accept-Language: en-US,en;q=0.9"),
-      "-A", shQuote(agent),
-      shQuote(url),
-      "2>&1"
-    )
+  for (attempt in seq_len(max_fetch_attempts)) {
+    for (target_url in profile_urls) {
+      for (agent in user_agents) {
+        command <- paste(
+          "curl -sSL --retry 4 --retry-all-errors --retry-delay 2 --connect-timeout 15 --max-time 45 --compressed",
+          "-H", shQuote("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"),
+          "-H", shQuote("Accept-Language: en-US,en;q=0.9"),
+          "-A", shQuote(agent),
+          "-w", shQuote("\\n__CURL_HTTP_STATUS__:%{http_code}"),
+          shQuote(target_url),
+          "2>&1"
+        )
 
-    output <- suppressWarnings(system(command, intern = TRUE, ignore.stderr = FALSE))
-    status <- attr(output, "status")
-    html <- paste(output, collapse = "\n")
+        output <- suppressWarnings(system(command, intern = TRUE, ignore.stderr = FALSE))
+        status <- attr(output, "status")
 
-    if (!is.null(status) && status != 0) {
-      last_error <- if (length(output)) {
-        paste(output, collapse = "\n")
-      } else {
-        sprintf("curl exited with status %s", status)
+        http_line <- grep("^__CURL_HTTP_STATUS__:", output, value = TRUE)
+        http_status <- NA_integer_
+        if (length(http_line)) {
+          http_status <- suppressWarnings(as.integer(sub("^__CURL_HTTP_STATUS__:", "", http_line[length(http_line)])))
+        }
+
+        body_lines <- output[!grepl("^__CURL_HTTP_STATUS__:", output)]
+        html <- paste(body_lines, collapse = "\n")
+
+        if (!is.null(status) && status != 0) {
+          last_error <- if (length(body_lines)) {
+            paste(body_lines, collapse = "\n")
+          } else {
+            sprintf("curl exited with status %s", status)
+          }
+          next
+        }
+
+        if (!is.na(http_status) && (http_status < 200 || http_status >= 300)) {
+          last_error <- sprintf("Scholar returned HTTP status %s.", http_status)
+          next
+        }
+
+        if (grepl("unusual traffic|captcha|/sorry/|enablejs", html, ignore.case = TRUE)) {
+          last_error <- sprintf(
+            "Google Scholar returned an anti-bot/interstitial response%s.",
+            if (!is.na(http_status)) sprintf(" (HTTP %s)", http_status) else ""
+          )
+          next
+        }
+
+        if (nzchar(html)) {
+          return(html)
+        }
+
+        last_error <- "Received an empty response from Scholar."
       }
-      next
     }
 
-    if (grepl("unusual traffic|captcha|/sorry/", html, ignore.case = TRUE)) {
-      last_error <- "Google Scholar returned an anti-bot/interstitial response."
-      next
+    if (attempt < max_fetch_attempts) {
+      Sys.sleep(min(20, 2^attempt))
     }
-
-    return(html)
   }
 
   stop(last_error)

@@ -4,7 +4,10 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "15 9 * * *"
+    - cron: "17 3 * * *"
+    - cron: "17 9 * * *"
+    - cron: "17 15 * * *"
+    - cron: "17 21 * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,7 +27,29 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
       - uses: r-lib/actions/setup-r@v2
       - name: Update Google Scholar stats
-        run: Rscript scripts/update_scholar_stats.R
+        run: |
+          set -euo pipefail
+          attempts=4
+          delay_seconds=120
+
+          for i in $(seq 1 "$attempts"); do
+            echo "Scholar refresh attempt $i/$attempts"
+            Rscript scripts/update_scholar_stats.R
+
+            if ! grep -q "Automatic refresh failed" generated/scholar-stats.md; then
+              echo "Scholar refresh succeeded."
+              break
+            fi
+
+            if [ "$i" -lt "$attempts" ]; then
+              echo "Still in fallback mode; retrying after ${delay_seconds}s..."
+              sleep "$delay_seconds"
+            fi
+          done
+
+          if grep -q "Automatic refresh failed" generated/scholar-stats.md; then
+            echo "Scholar refresh ended in fallback mode after retries."
+          fi
       - name: Render site
         run: quarto render
       - name: Upload pages artifact
