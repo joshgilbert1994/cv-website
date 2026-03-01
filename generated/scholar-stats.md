@@ -1,4 +1,4 @@
-_Last updated: 2026-03-01 17:28 UTC._
+_Last updated: 2026-03-01 17:44 UTC._
 
 | Metric | All | Since 2021 |
 |---|---:|---:|

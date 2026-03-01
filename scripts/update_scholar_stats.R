@@ -5,6 +5,7 @@ user_id <- Sys.getenv("SCHOLAR_USER_ID", unset = default_user_id)
 out_file <- Sys.getenv("SCHOLAR_OUTPUT_FILE", unset = "generated/scholar-stats.md")
 profile_url <- sprintf("https://scholar.google.com/citations?user=%s&hl=en", user_id)
 max_fetch_attempts <- suppressWarnings(as.integer(Sys.getenv("SCHOLAR_FETCH_ATTEMPTS", unset = "3")))
+serpapi_key <- Sys.getenv("SERPAPI_KEY", unset = "")
 if (is.na(max_fetch_attempts) || max_fetch_attempts < 1) {
   max_fetch_attempts <- 3L
 }
@@ -127,6 +128,121 @@ parse_citations_from_meta <- function(html) {
   as.integer(gsub("[^0-9]", "", raw))
 }
 
+fetch_serpapi_json <- function(author_id, api_key) {
+  endpoint <- sprintf(
+    "https://serpapi.com/search.json?engine=google_scholar_author&author_id=%s&api_key=%s",
+    URLencode(author_id, reserved = TRUE),
+    URLencode(api_key, reserved = TRUE)
+  )
+
+  command <- paste(
+    "curl -sSL --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 45 --compressed",
+    "-w", shQuote("\\n__CURL_HTTP_STATUS__:%{http_code}"),
+    shQuote(endpoint),
+    "2>&1"
+  )
+
+  output <- suppressWarnings(system(command, intern = TRUE, ignore.stderr = FALSE))
+  status <- attr(output, "status")
+  http_line <- grep("^__CURL_HTTP_STATUS__:", output, value = TRUE)
+  http_status <- NA_integer_
+  if (length(http_line)) {
+    http_status <- suppressWarnings(as.integer(sub("^__CURL_HTTP_STATUS__:", "", http_line[length(http_line)])))
+  }
+
+  body_lines <- output[!grepl("^__CURL_HTTP_STATUS__:", output)]
+  json_text <- paste(body_lines, collapse = "\n")
+
+  if (!is.null(status) && status != 0) {
+    msg <- if (length(body_lines)) {
+      paste(body_lines, collapse = "\n")
+    } else {
+      sprintf("curl exited with status %s", status)
+    }
+    stop(msg)
+  }
+
+  if (!is.na(http_status) && (http_status < 200 || http_status >= 300)) {
+    stop(sprintf("SerpAPI returned HTTP status %s.", http_status))
+  }
+
+  if (!nzchar(json_text)) {
+    stop("SerpAPI response was empty.")
+  }
+
+  if (grepl("\"error\"\\s*:\\s*\"", json_text, perl = TRUE)) {
+    err_match <- regmatches(
+      json_text,
+      regexec("\"error\"\\s*:\\s*\"([^\"]+)\"", json_text, perl = TRUE)
+    )[[1]]
+    if (length(err_match) >= 2) {
+      stop(sprintf("SerpAPI error: %s", err_match[2]))
+    }
+    stop("SerpAPI returned an error response.")
+  }
+
+  json_text
+}
+
+parse_serpapi_metric <- function(json_text, metric_key) {
+  pattern_all_first <- sprintf(
+    "\"%s\"\\s*:\\s*\\{[^\\}]*\"all\"\\s*:\\s*([0-9]+)[^\\}]*\"(since_[0-9]{4})\"\\s*:\\s*([0-9]+)",
+    metric_key
+  )
+  match <- regmatches(json_text, regexec(pattern_all_first, json_text, perl = TRUE))[[1]]
+  if (length(match) >= 4) {
+    return(list(
+      all = as.integer(match[2]),
+      since_key = match[3],
+      since = as.integer(match[4])
+    ))
+  }
+
+  pattern_since_first <- sprintf(
+    "\"%s\"\\s*:\\s*\\{[^\\}]*\"(since_[0-9]{4})\"\\s*:\\s*([0-9]+)[^\\}]*\"all\"\\s*:\\s*([0-9]+)",
+    metric_key
+  )
+  match <- regmatches(json_text, regexec(pattern_since_first, json_text, perl = TRUE))[[1]]
+  if (length(match) >= 4) {
+    return(list(
+      all = as.integer(match[4]),
+      since_key = match[2],
+      since = as.integer(match[3])
+    ))
+  }
+
+  NULL
+}
+
+parse_serpapi_metrics <- function(json_text) {
+  citations <- parse_serpapi_metric(json_text, "citations")
+  h_index <- parse_serpapi_metric(json_text, "h_index")
+  i10_index <- parse_serpapi_metric(json_text, "i10_index")
+
+  if (is.null(citations) || is.null(h_index) || is.null(i10_index)) {
+    stop("Unable to parse metrics from SerpAPI response.")
+  }
+
+  since_key <- c(citations$since_key, h_index$since_key, i10_index$since_key)
+  since_key <- since_key[!is.na(since_key) & nzchar(since_key)]
+  since_label <- "Since recent years"
+  if (length(since_key)) {
+    since_label <- sprintf("Since %s", sub("^since_", "", since_key[1]))
+  }
+
+  list(
+    since_label = since_label,
+    metrics = list(
+      citations_all = citations$all,
+      citations_since = citations$since,
+      h_all = h_index$all,
+      h_since = h_index$since,
+      i10_all = i10_index$all,
+      i10_since = i10_index$since
+    )
+  )
+}
+
 fetch_profile_html <- function(url) {
   profile_urls <- unique(c(
     url,
@@ -245,11 +361,25 @@ result <- tryCatch({
   updated <- format(Sys.time(), "%Y-%m-%d %H:%M UTC", tz = "UTC")
   write_stats_markdown(out_file, updated, parsed$since_label, parsed$metrics)
   message(sprintf("Updated Scholar metrics: %s", out_file))
-  list(success = TRUE, html = html)
+  list(success = TRUE, html = html, source = "scholar")
 }, error = function(e) {
   message(sprintf("Scholar update failed: %s", conditionMessage(e)))
   list(success = FALSE, error = conditionMessage(e))
 })
+
+if (!result$success && nzchar(serpapi_key)) {
+  result <- tryCatch({
+    json_text <- fetch_serpapi_json(user_id, serpapi_key)
+    parsed <- parse_serpapi_metrics(json_text)
+    updated <- format(Sys.time(), "%Y-%m-%d %H:%M UTC", tz = "UTC")
+    write_stats_markdown(out_file, updated, parsed$since_label, parsed$metrics)
+    message(sprintf("Updated Scholar metrics via SerpAPI fallback: %s", out_file))
+    list(success = TRUE, source = "serpapi")
+  }, error = function(e) {
+    message(sprintf("SerpAPI fallback failed: %s", conditionMessage(e)))
+    result
+  })
+}
 
 if (!result$success) {
   updated <- format(Sys.time(), "%Y-%m-%d %H:%M UTC", tz = "UTC")
