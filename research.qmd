@@ -22,12 +22,12 @@ Notational conventions:
 - `*`: Joint authorship.
 - `...`: Lengthy authorship list (names omitted).
 
-### Peer-Reviewed Journal Publications (N = 30)
+### Peer-Reviewed Journal Publications (N = 31)
 
 #### First/Sole Author (N = 15)
 
 - **Gilbert, J. B.** (Accepted). Explanatory item response models for continuous data: A tutorial in R. *Behavior Research Methods*. [doi](https://osf.io/preprints/psyarxiv/qzxk5_v2)
-- **Gilbert, J. B.**, Young, W. S., Himmelsbach, Z., Ulitzsch, E., and Domingue, B. W. (Accepted). Conditional dependencies between response time and item discrimination: An item-level meta-analysis. *Educational and Psychological Measurement*. [doi](https://doi.org/10.31234/osf.io/rp34w_v2), [code](https://doi.org/10.7910/DVN/OZUZ47)
+- **Gilbert, J. B.**, Young, W. S., Himmelsbach, Z., Ulitzsch, E., and Domingue, B. W. (2026). Conditional dependencies between response time and item discrimination: An item-level meta-analysis. *Educational and Psychological Measurement*. [doi](https://doi.org/10.1177/00131644261426972), [code](https://doi.org/10.7910/DVN/OZUZ47)
 - **Gilbert, J. B.**, Soland, J. G., and Domingue, B. W. (2026). The sensitivity of value-added estimates to test scoring decisions. *Educational Measurement: Issues and Practice, 45*(1). [doi](http://dx.doi.org/10.1111/emip.70011), [code](https://doi.org/10.7910/DVN/AJDUN2)
 - **Gilbert, J. B.**, Himmelsbach, Z., Miratrix, L. W., Ho, A. D., and Domingue, B. W. (2025). Item-level heterogeneity in value added models: Implications for reliability, cross-study comparability, and effect sizes. *Journal of Educational and Behavioral Statistics*. [doi](https://journals.sagepub.com/doi/10.3102/10769986251393339), [code](https://doi.org/10.7910/DVN/89YITQ)
 - **Gilbert, J. B.**, and Miratrix, L. W. (2025). Multilevel metamodels: Enhancing inference, interpretability, and generalizability in Monte Carlo simulation studies. *Multivariate Behavioral Research*. [doi](https://doi.org/10.1080/00273171.2025.2586631), [code](https://researchbox.org/2429)
@@ -42,8 +42,9 @@ Notational conventions:
 - **Gilbert, J. B.** (2024). Modeling item-level heterogeneous treatment effects: A tutorial with the glmer function from the lme4 package in R. *Behavior Research Methods, 56*(5), 5055-5067. [doi](https://link.springer.com/article/10.3758/s13428-023-02245-8), [code](https://researchbox.org/2054)
 - **Gilbert, J. B.**, Kim, J. S., and Miratrix, L. W. (2023). Modeling item-level heterogeneous treatment effects with the explanatory item response model: Leveraging large-scale online assessments to pinpoint the impact of educational interventions. *Journal of Educational and Behavioral Statistics, 48*(6), 889-913. [doi](https://journals.sagepub.com/doi/pdf/10.3102/10769986231171710), [code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QARRYT)
 
-#### Co-Authored (N = 15)
+#### Co-Authored (N = 16)
 
+- Berkowitz, S. T., **Gilbert, J. B.**, ... and Finn, A. P. (Accepted). Characterization of intravitreal anti-VEGF injection transitions across bevacizumab, biosimilar, and branded medications: IRIS (Intelligent Research in Sight) Registry study. Under revision in *Journal of VitreoRetinal Diseases*.
 - Hoyek, S., **Gilbert, J. B.** ... and Patel, N. A. (2025). Intraocular pressure changes following vitrectomy with and without phacoemulsification: An IRIS Registry analysis. *Canadian Journal of Ophthalmology*. [doi](https://www.canadianjournalofophthalmology.ca/article/S0008-4182(25)00369-2/fulltext)
 - Nestorova, T., Nestorov, I., **Gilbert, J. B.**, and Howell, I. (2025). Does vibrato define genre or vice versa? A novel parametric approach to vibrato analysis. *Journal of Voice*. [doi](https://doi.org/10.1016/j.jvoice.2025.02.046)
 - Tainsh, L., Douglas, V. P., **Gilbert, J. B.** ... and Lorch, A. (2025). Patient and practice level visual acuity prior to cataract surgery: An IRIS Registry (Intelligent Research in Sight) analysis. *Clinical Ophthalmology, 19*, 4975-4987. [doi](https://www.dovepress.com/articles.php?article_id=110610)
@@ -60,8 +61,9 @@ Notational conventions:
 - Kim, J., **Gilbert, J.**, Yu, Q., and Gale, C. (2021). Measures matter: A meta-analysis of the effects of educational apps on preschool to grade 3 children's literacy and math skills. *AERA Open, 7*, 23328584211004183. [doi](https://journals.sagepub.com/doi/pdf/10.1177/23328584211004183), [code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/V17T2Y)
 - Scripp, L., and **Gilbert, J.** (2016). Music plus music integration: A model for music education policy reform that reflects the evolution and success of arts integration practices in 21st century American public schools. *Arts Education Policy Review, 117*(4), 186-202. [doi](https://www.tandfonline.com/doi/pdf/10.1080/10632913.2016.1211923)
 
-### Conference Papers (N = 2)
+### Conference Papers (N = 3)
 
+- Student, S. R., **Gilbert, J. B.**, Eze, J., Young, W. S., and Domingue, B. W. (Accepted). Item-level heterogeneous treatment effects in instrumental variables regression. *Proceedings of the International Meeting of the Psychometric Society*. [doi](https://osf.io/preprints/psyarxiv/sudgt_v3)
 - Isley, C., **Gilbert, J. B.** ... and Goel, S. (Accepted). Assessing the quality of AI-generated exams: A large-scale field study. [doi](https://arxiv.org/abs/2508.08314)
 - Kakarla, S. (◇), Yanney, L. (◇), **Gilbert, J. B.** (◆), and Domingue, B. W. (◆) (2025). Exploring item-level heterogeneous treatment effects in educational interventions through machine learning techniques and item response models. 2024 IEEE MIT Undergraduate Research Technology Conference (URTC), Cambridge, MA, USA. [doi](https://ieeexplore.ieee.org/document/10937510)
 
@@ -69,20 +71,18 @@ Notational conventions:
 
 - Scripp, L., and **Gilbert, J.** (2019). Human development through music. In L. Scripp and B. Kaufman (Eds.), *Music learning as youth development* (pp. 8-39). Routledge. [link](https://www.routledge.com/Music-Learning-as-Youth-Development/Kaufman-Scripp/p/book/9781138347700)
 
-### Under Review and Preprints (N = 22)
+### Under Review and Preprints (N = 20)
 
-#### Manuscripts in Revision (N = 8)
+#### Manuscripts in Revision (N = 6)
 
-- Student, S. R., **Gilbert, J. B.**, Eze, J., Young, W. S., and Domingue, B. W. (2026). Item-level heterogeneous treatment effects in instrumental variables regression. Under revision in *Proceedings of the International Meeting of the Psychometric Society*. [doi](https://osf.io/preprints/psyarxiv/sudgt_v2)
 - Ghauri, S., Ross, C., **Gilbert, J. B.** ... and Krzystolik, M. G. (2026). Timing and risk factors for post-injection endophthalmitis: A retrospective national study in the IRIS registry (Intelligent Research in Sight). Under revision in *Ophthalmology Retina*. [doi](https://www.medrxiv.org/content/10.64898/2026.01.12.25336174v1)
 - Soland, J. and **Gilbert, J. B.** (2026). Does socially desirable responding increase after an intervention? Implications for estimating treatment effects. Under revision in *Behavior Research Methods*. [doi](https://doi.org/10.31234/osf.io/ujx4n_v3)
 - Nalbandyan, R., **Gilbert, J. B.**, Franco, V. R., and Domingue, B. W. (2025). Signposts on the path from nominal to ordinal scales: Moving from a discrete to a continuous view. Under revision in *Educational and Psychological Measurement*. [doi](https://osf.io/preprints/psyarxiv/zbv8f)
-- Burkhauser, M. A., Kim, J. S. ... and **Gilbert, J. B.** (2025). Empower the few to reach the many: How school-based "teacher innovators" bridge research and practice. Under revision in *Scientific Studies of Reading*.
-- Berkowitz, S. T., **Gilbert, J. B.**, ... and Finn, A. P. (2025). Characterization of intravitreal anti-VEGF injection transitions across bevacizumab, biosimilar, and branded medications: IRIS (Intelligent Research in Sight) Registry study. Under revision in *Journal of VitreoRetinal Diseases*.
+- Burkhauser, M. A., Kim, J. S. ... and **Gilbert, J. B.** (2025). Implementation for scale: A Focus-Fiddle-Friends strategy to support adoption, spread, and reform ownership of a first-grade content literacy curriculum. Under revision in *Scientific Studies of Reading*.
 - Armstrong-Carter, E., **Gilbert, J. B.**, Silfverskiold, T., Clark, L. E., and Templin, T. (2024). Adolescents provide approximately $15 billion worth of informal family caregiving services to the United States economy. Under revision in *Children and Youth Services Review*. [doi](https://osf.io/preprints/psyarxiv/2dhtk_v3)
 - Halpin, P. F., and **Gilbert, J. B.** (2024). Testing whether reported treatment effects are unduly influenced by item-level heterogeneity. Under revision in *Journal of Research on Educational Effectiveness*. [doi](https://osf.io/preprints/psyarxiv/9ru45_v1)
 
-#### Manuscripts Under Review (N = 8)
+#### Manuscripts Under Review (N = 9)
 
 - Cho, S-J., and **Gilbert, J. B.** (2026). Explanatory item response models with random item parameters and their applications. (Book Chapter)
 - **Gilbert, J. B.** and Kim, J. S. (2026). Mapping the mechanisms of interdisciplinary learning transfer from reading to math achievement: Evidence from a large-scale randomized controlled trial. Under review in *Developmental Psychology*. [doi](https://edworkingpapers.com/ai26-1376)
@@ -94,7 +94,7 @@ Notational conventions:
 - Zhang, L., Liu, Y., Molenaar, D., **Gilbert, J. B.**, Kanopka, K., and Domingue, B. W. (2025). Realistic simulation of item difficulties. Under review in *Behavior Research Methods*. [doi](https://osf.io/preprints/psyarxiv/jbhxy_v4)
 - **Gilbert, J. B.**, and Soland, J. (2024). Mechanisms of effect size differences between researcher developed and independently developed outcomes: An item-level meta-analysis. Under review in *Multivariate Behavioral Research*. [doi](https://edworkingpapers.com/ai24-1082)
 
-#### Manuscripts in Preparation / Preprints (N = 6)
+#### Manuscripts in Preparation / Preprints (N = 5)
 
 - **Gilbert, J. B.**, Soland, J. G., and Young, W. S. (2025). Evidence from dozens of randomized trials that science is undermined when researchers make common, unfounded assumptions about measurement.
 - Student, S. R., Eze, J., **Gilbert, J. B.**, Young, W. S., and Domingue, B. W. (2025). Expanding psychology's causal toolkit: Latent outcomes and binary treatments in instrumental variables regression.
