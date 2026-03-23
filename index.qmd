@@ -23,7 +23,7 @@ My work integrates psychometrics and causal inference to improve how researchers
 
 ## Selected Accomplishments
 
-- Built a publication portfolio that currently includes **30 peer-reviewed journal publications** and **22 manuscripts under review or in preprint** (see [Research](research.qmd)).
+- Built a publication portfolio that currently includes **33 peer-reviewed journal publications** and **18 manuscripts under review or in preprint** (see [Research](research.qmd)).
 - Received the **Spencer Dissertation Fellowship (2025-2026)** from the National Academy of Education.
 - Published methodological work in journals including *Behavior Research Methods*, *Journal of Educational and Behavioral Statistics*, *Psychological Methods*, and *Journal of Policy Analysis and Management*.
 - Delivered invited talks and workshops at institutions and conferences such as Stanford, Oxford, NCME, and IMPS (see [Presentations](presentations.qmd)).

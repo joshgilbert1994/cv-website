@@ -22,7 +22,7 @@ Notational conventions:
 - `*`: Joint authorship.
 - `...`: Lengthy authorship list (names omitted).
 
-### Peer-Reviewed Journal Publications (N = 31)
+### Peer-Reviewed Journal Publications (N = 33)
 
 #### First/Sole Author (N = 15)
 
@@ -42,8 +42,10 @@ Notational conventions:
 - **Gilbert, J. B.** (2024). Modeling item-level heterogeneous treatment effects: A tutorial with the glmer function from the lme4 package in R. *Behavior Research Methods, 56*(5), 5055-5067. [doi](https://link.springer.com/article/10.3758/s13428-023-02245-8), [code](https://researchbox.org/2054)
 - **Gilbert, J. B.**, Kim, J. S., and Miratrix, L. W. (2023). Modeling item-level heterogeneous treatment effects with the explanatory item response model: Leveraging large-scale online assessments to pinpoint the impact of educational interventions. *Journal of Educational and Behavioral Statistics, 48*(6), 889-913. [doi](https://journals.sagepub.com/doi/pdf/10.3102/10769986231171710), [code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QARRYT)
 
-#### Co-Authored (N = 16)
+#### Co-Authored (N = 18)
 
+- Nalbandyan, R., **Gilbert, J. B.**, Franco, V. R., and Domingue, B. W. (Accepted). Signposts on the path from nominal to ordinal scales: Moving from a discrete to a continuous view. *Educational and Psychological Measurement*. [doi](https://osf.io/preprints/psyarxiv/zbv8f)
+- Ghauri, S., Ross, C., **Gilbert, J. B.** ... and Krzystolik, M. G. (Accepted). Timing and determinants of post-injection endophthalmitis after first-time anti-VEGF administration: A retrospective national study in the American Academy of Ophthalmology IRIS Registry. *Ophthalmology Retina*. [doi](https://www.medrxiv.org/content/10.64898/2026.01.12.25336174v1)
 - Berkowitz, S. T., **Gilbert, J. B.**, ... and Finn, A. P. (Accepted). Characterization of intravitreal anti-VEGF injection transitions across bevacizumab, biosimilar, and branded medications: IRIS (Intelligent Research in Sight) Registry study. Under revision in *Journal of VitreoRetinal Diseases*.
 - Hoyek, S., **Gilbert, J. B.** ... and Patel, N. A. (2025). Intraocular pressure changes following vitrectomy with and without phacoemulsification: An IRIS Registry analysis. *Canadian Journal of Ophthalmology*. [doi](https://www.canadianjournalofophthalmology.ca/article/S0008-4182(25)00369-2/fulltext)
 - Nestorova, T., Nestorov, I., **Gilbert, J. B.**, and Howell, I. (2025). Does vibrato define genre or vice versa? A novel parametric approach to vibrato analysis. *Journal of Voice*. [doi](https://doi.org/10.1016/j.jvoice.2025.02.046)
@@ -71,21 +73,19 @@ Notational conventions:
 
 - Scripp, L., and **Gilbert, J.** (2019). Human development through music. In L. Scripp and B. Kaufman (Eds.), *Music learning as youth development* (pp. 8-39). Routledge. [link](https://www.routledge.com/Music-Learning-as-Youth-Development/Kaufman-Scripp/p/book/9781138347700)
 
-### Under Review and Preprints (N = 20)
+### Under Review and Preprints (N = 18)
 
-#### Manuscripts in Revision (N = 6)
+#### Manuscripts in Revision (N = 3)
 
-- Ghauri, S., Ross, C., **Gilbert, J. B.** ... and Krzystolik, M. G. (2026). Timing and risk factors for post-injection endophthalmitis: A retrospective national study in the IRIS registry (Intelligent Research in Sight). Under revision in *Ophthalmology Retina*. [doi](https://www.medrxiv.org/content/10.64898/2026.01.12.25336174v1)
-- Soland, J. and **Gilbert, J. B.** (2026). Does socially desirable responding increase after an intervention? Implications for estimating treatment effects. Under revision in *Behavior Research Methods*. [doi](https://doi.org/10.31234/osf.io/ujx4n_v3)
-- Nalbandyan, R., **Gilbert, J. B.**, Franco, V. R., and Domingue, B. W. (2025). Signposts on the path from nominal to ordinal scales: Moving from a discrete to a continuous view. Under revision in *Educational and Psychological Measurement*. [doi](https://osf.io/preprints/psyarxiv/zbv8f)
 - Burkhauser, M. A., Kim, J. S. ... and **Gilbert, J. B.** (2025). Implementation for scale: A Focus-Fiddle-Friends strategy to support adoption, spread, and reform ownership of a first-grade content literacy curriculum. Under revision in *Scientific Studies of Reading*.
 - Armstrong-Carter, E., **Gilbert, J. B.**, Silfverskiold, T., Clark, L. E., and Templin, T. (2024). Adolescents provide approximately $15 billion worth of informal family caregiving services to the United States economy. Under revision in *Children and Youth Services Review*. [doi](https://osf.io/preprints/psyarxiv/2dhtk_v3)
 - Halpin, P. F., and **Gilbert, J. B.** (2024). Testing whether reported treatment effects are unduly influenced by item-level heterogeneity. Under revision in *Journal of Research on Educational Effectiveness*. [doi](https://osf.io/preprints/psyarxiv/9ru45_v1)
 
-#### Manuscripts Under Review (N = 9)
+#### Manuscripts Under Review (N = 10)
 
+- **Gilbert, J. B.**\*, Soland, J. G.\*, and Young, W. S. (2026). Is the replication crisis a measurement crisis? Evidence from over 100 randomized trial outcomes. Under review in *Science*. [doi](https://osf.io/preprints/psyarxiv/9zgj8_v1)
 - Cho, S-J., and **Gilbert, J. B.** (2026). Explanatory item response models with random item parameters and their applications. (Book Chapter)
-- **Gilbert, J. B.** and Kim, J. S. (2026). Mapping the mechanisms of interdisciplinary learning transfer from reading to math achievement: Evidence from a large-scale randomized controlled trial. Under review in *Developmental Psychology*. [doi](https://edworkingpapers.com/ai26-1376)
+- **Gilbert, J. B.** and Kim, J. S. (2026). Mapping the mechanisms of interdisciplinary learning transfer from reading to math achievement: Evidence from a large-scale randomized controlled trial. Under review in *Developmental Psychology*. [doi](https://edworkingpapers.com/ai26-1376), [The Bell Ringer](https://hollykorbey.substack.com/p/public-notice-4?utm_source=post-email-title&publication_id=235252&post_id=191361947&utm_campaign=email-post-title&isFreemail=false&r=44ycu&triedRedirect=true&utm_medium=email)
 - Veltri, G. A.\*, and **Gilbert, J. B.**\* (2026). Results from randomized controlled trials are highly sensitive to data preprocessing decisions: A multiverse analysis of 97 outcomes. Under review in *Advances in Methods and Practice in Psychological Science*. [doi](https://doi.org/10.31222/osf.io/kbgc2_v2)
 - Dahrouj, M., Awh, C., Bleicher, I. D., **Gilbert, J. B.** ... and Singh, R. P. (2026). Preoperative vision as a predictor of surgical outcomes for idiopathic epiretinal membranes: an IRIS Registry study. Under review in *Ophthalmology*.
 - **Gilbert, J. B.** and Himmelsbach, Z. (2026). Why fadeout is (probably) worse than we think: Adjusting for correlated sampling error in meta-analyses of behavioral interventions. Under review in *Psychological Methods*. [doi](https://edworkingpapers.com/ai26-1394)
@@ -96,7 +96,7 @@ Notational conventions:
 
 #### Manuscripts in Preparation / Preprints (N = 5)
 
-- **Gilbert, J. B.**, Soland, J. G., and Young, W. S. (2025). Evidence from dozens of randomized trials that science is undermined when researchers make common, unfounded assumptions about measurement.
+- Soland, J. and **Gilbert, J. B.** (2026). Does socially desirable responding increase after an intervention? Implications for estimating treatment effects. [doi](https://doi.org/10.31234/osf.io/ujx4n_v3)
 - Student, S. R., Eze, J., **Gilbert, J. B.**, Young, W. S., and Domingue, B. W. (2025). Expanding psychology's causal toolkit: Latent outcomes and binary treatments in instrumental variables regression.
 - Hart, E. R.\*, **Gilbert, J. B.**\*, Bailey, D., Watts, T., and Domingue, B. W. (2025). Examining the role of measurement invariance in intervention impact persistence. [preregistration](https://osf.io/zsdv9)
 - Himmelsbach, Z., and **Gilbert, J. B.** (2025). The case for Bayesian estimation of the D-study.

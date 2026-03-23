@@ -17,8 +17,9 @@ title: "Service"
 ### Journals
 
 - Journal for Research on Educational Effectiveness (3)
+- Journal of Educational Measurement (3)
 - British Journal of Mathematical and Statistical Psychology (2)
-- Journal of Educational Measurement (2)
+- Applied Measurement in Education
 - Psychometrika
 - Behavior Research Methods
 - Journal of Educational and Behavioral Statistics
@@ -46,4 +47,3 @@ title: "Service"
 - National Council on Measurement in Education (NCME)
 - Psychometric Society
 - Society for Research on Educational Effectiveness (SREE)
-
