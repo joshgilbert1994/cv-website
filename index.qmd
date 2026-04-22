@@ -7,7 +7,7 @@ title: "Home"
 
 # Joshua Gilbert
 
-PhD Candidate, Harvard Graduate School of Education (2022-2026)  
+PhD (dissertation defended), Harvard Graduate School of Education (2022-2026)  
 Education Policy and Program Evaluation
 
 My work integrates psychometrics and causal inference to improve how researchers measure outcomes and estimate intervention effects. I develop statistical methods for item-level analysis, treatment effect heterogeneity, and research synthesis, with applications in education, psychology, and health research.
