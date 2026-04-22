@@ -6,3 +6,36 @@ h1, h2, h3 {
   letter-spacing: 0.01em;
 }
 
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(240px, 360px);
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.home-hero-copy h1 {
+  margin-bottom: 0.75rem;
+}
+
+.home-hero-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.home-hero-photo img {
+  width: 100%;
+  max-width: 340px;
+  border-radius: 1.25rem;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18);
+}
+
+@media (max-width: 768px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero-photo {
+    order: -1;
+  }
+}
