@@ -10,33 +10,37 @@ title: "Service"
 
 ## Professional Organizations
 
-- Standards and Test Use Committee (2024-2026), National Council on Measurement in Education (NCME) ([link](https://www.ncme.org/community/ncme-committees/standard-test-use))
+- Standards and Test Use Committee (Member) (2026-2029), National Council on Measurement in Education (NCME) ([link](https://www.ncme.org/community/ncme-committees/standard-test-use))
+- Standards and Test Use Committee (Student representative) (2024-2026), National Council on Measurement in Education (NCME) ([link](https://www.ncme.org/community/ncme-committees/standard-test-use))
 
 ## Ad Hoc Review
+
+Parentheses indicate multiple reviews at a journal.
 
 ### Journals
 
 - Journal for Research on Educational Effectiveness (3)
 - Journal of Educational Measurement (3)
 - British Journal of Mathematical and Statistical Psychology (2)
+- BMC Psychology (2)
+- Methods in Psychology (2)
 - Applied Measurement in Education
 - Psychometrika
 - Behavior Research Methods
 - Journal of Educational and Behavioral Statistics
 - Review of Educational Research
 - Mind, Brain, and Education
-- BMC Psychology
 - BMC Medical Research Methodology
 
 ### Conference Proposals
 
 - Society for Research on Educational Effectiveness
 
-### Standards and Other Review Work
+### Other Review Work
 
 - NCES Psychometric Standards
 
-## Additional Service
+## Other
 
 - Data contributor, Item Response Warehouse (IRW) ([link](https://itemresponsewarehouse.org))
 

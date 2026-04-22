@@ -10,8 +10,6 @@ title: "Home"
 PhD (dissertation defended), Harvard Graduate School of Education (2022-2026)  
 Education Policy and Program Evaluation
 
-My work integrates psychometrics and causal inference to improve how researchers measure outcomes and estimate intervention effects. I develop statistical methods for item-level analysis, treatment effect heterogeneity, and research synthesis, with applications in education, psychology, and health research.
-
 - Email: josh [dot] b [dot] gilbert [at] gmail [dot] com
 - [Google Scholar](https://scholar.google.com/citations?user=OCdG4IgAAAAJ&hl=en)
 - [ORCID](https://orcid.org/0000-0003-3496-2710)
@@ -33,6 +31,8 @@ My work integrates psychometrics and causal inference to improve how researchers
 - **BM**, New England Conservatory of Music (2012-2016)
 
 ## Work Summary
+
+My work integrates psychometrics and causal inference to improve how researchers measure outcomes and estimate intervention effects. I develop statistical methods for item-level analysis, treatment effect heterogeneity, and research synthesis, with applications in education, psychology, and health research.
 
 I also prioritize open and reproducible workflows through shared code and data resources. The research section now separates lead-authored work, education and quantitative methods collaborations, and health science and biostatistics collaborations to make the publication portfolio easier to browse.
 

@@ -67,21 +67,21 @@
     "href": "service.html#professional-organizations",
     "title": "Service",
     "section": "Professional Organizations",
-    "text": "Professional Organizations\n\nStandards and Test Use Committee (2024-2026), National Council on Measurement in Education (NCME) (link)"
+    "text": "Professional Organizations\n\nStandards and Test Use Committee (Member) (2026-2029), National Council on Measurement in Education (NCME) (link)\nStandards and Test Use Committee (Student representative) (2024-2026), National Council on Measurement in Education (NCME) (link)"
   },
   {
     "objectID": "service.html#ad-hoc-review",
     "href": "service.html#ad-hoc-review",
     "title": "Service",
     "section": "Ad Hoc Review",
-    "text": "Ad Hoc Review\n\nJournals\n\nJournal for Research on Educational Effectiveness (3)\nJournal of Educational Measurement (3)\nBritish Journal of Mathematical and Statistical Psychology (2)\nApplied Measurement in Education\nPsychometrika\nBehavior Research Methods\nJournal of Educational and Behavioral Statistics\nReview of Educational Research\nMind, Brain, and Education\nBMC Psychology\nBMC Medical Research Methodology\n\n\n\nConference Proposals\n\nSociety for Research on Educational Effectiveness\n\n\n\nStandards and Other Review Work\n\nNCES Psychometric Standards"
+    "text": "Ad Hoc Review\nParentheses indicate multiple reviews at a journal.\n\nJournals\n\nJournal for Research on Educational Effectiveness (3)\nJournal of Educational Measurement (3)\nBritish Journal of Mathematical and Statistical Psychology (2)\nBMC Psychology (2)\nMethods in Psychology (2)\nApplied Measurement in Education\nPsychometrika\nBehavior Research Methods\nJournal of Educational and Behavioral Statistics\nReview of Educational Research\nMind, Brain, and Education\nBMC Medical Research Methodology\n\n\n\nConference Proposals\n\nSociety for Research on Educational Effectiveness\n\n\n\nOther Review Work\n\nNCES Psychometric Standards"
   },
   {
-    "objectID": "service.html#additional-service",
-    "href": "service.html#additional-service",
+    "objectID": "service.html#other",
+    "href": "service.html#other",
     "title": "Service",
-    "section": "Additional Service",
-    "text": "Additional Service\n\nData contributor, Item Response Warehouse (IRW) (link)"
+    "section": "Other",
+    "text": "Other\n\nData contributor, Item Response Warehouse (IRW) (link)"
   },
   {
     "objectID": "service.html#professional-affiliations",
@@ -95,7 +95,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "PhD (dissertation defended), Harvard Graduate School of Education (2022-2026)\nEducation Policy and Program Evaluation\nMy work integrates psychometrics and causal inference to improve how researchers measure outcomes and estimate intervention effects. I develop statistical methods for item-level analysis, treatment effect heterogeneity, and research synthesis, with applications in education, psychology, and health research.\n\nEmail: josh [dot] b [dot] gilbert [at] gmail [dot] com\nGoogle Scholar\nORCID\nLinkedIn\nHarvard Dataverse"
+    "text": "PhD (dissertation defended), Harvard Graduate School of Education (2022-2026)\nEducation Policy and Program Evaluation\n\nEmail: josh [dot] b [dot] gilbert [at] gmail [dot] com\nGoogle Scholar\nORCID\nLinkedIn\nHarvard Dataverse"
   },
   {
     "objectID": "index.html#education",
@@ -109,7 +109,7 @@
     "href": "index.html#work-summary",
     "title": "Home",
     "section": "Work Summary",
-    "text": "Work Summary\nI also prioritize open and reproducible workflows through shared code and data resources. The research section now separates lead-authored work, education and quantitative methods collaborations, and health science and biostatistics collaborations to make the publication portfolio easier to browse."
+    "text": "Work Summary\nMy work integrates psychometrics and causal inference to improve how researchers measure outcomes and estimate intervention effects. I develop statistical methods for item-level analysis, treatment effect heterogeneity, and research synthesis, with applications in education, psychology, and health research.\nI also prioritize open and reproducible workflows through shared code and data resources. The research section now separates lead-authored work, education and quantitative methods collaborations, and health science and biostatistics collaborations to make the publication portfolio easier to browse."
   },
   {
     "objectID": "index.html#selected-accomplishments",
