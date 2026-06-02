@@ -24,6 +24,9 @@ Parentheses indicate multiple reviews at a journal.
 - British Journal of Mathematical and Statistical Psychology (2)
 - BMC Psychology (2)
 - Methods in Psychology (2)
+- Psychological Methods
+- American Psychologist
+- Advances in Methods and Practices in Psychological Science
 - Applied Measurement in Education
 - Psychometrika
 - Behavior Research Methods
@@ -46,6 +49,7 @@ Parentheses indicate multiple reviews at a journal.
 
 ## Professional Affiliations
 
+- Scholars Strategy Network (SSN) ([link](https://scholars.org/scholar/joshua-baer-gilbert))
 - Institute for Quantitative Social Science (IQSS) Graduate Student Affiliate ([link](https://www.iq.harvard.edu/people/joshua-gilbert))
 - American Educational Research Association (AERA)
 - National Council on Measurement in Education (NCME)

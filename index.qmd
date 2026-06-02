@@ -7,7 +7,7 @@ title: "Home"
 
 # Joshua Gilbert
 
-PhD (dissertation defended), Harvard Graduate School of Education (2022-2026)  
+PhD, Harvard Graduate School of Education (2022-2026)  
 Education Policy and Program Evaluation
 
 - Email: josh [dot] b [dot] gilbert [at] gmail [dot] com
@@ -22,6 +22,11 @@ Education Policy and Program Evaluation
 :::
 :::
 
+## Current Roles
+
+- **Research Scientist**, Center for School Behavioral Health, Massachusetts General Hospital (2026-present)
+- **Adjunct Lecturer**, Harvard Graduate School of Education (2026-present)
+
 ## Education
 
 - **PhD**, Harvard Graduate School of Education (2022-2026)  
@@ -32,11 +37,11 @@ Education Policy and Program Evaluation
 
 ## Work Summary
 
-My work integrates psychometrics and causal inference to improve how researchers measure outcomes and estimate intervention effects. I develop statistical methods for item-level analysis, treatment effect heterogeneity, and research synthesis, with applications in education, psychology, and health research. I also prioritize open and reproducible workflows through shared code and data resources.
+My work integrates psychometrics and causal inference to improve how researchers measure outcomes and estimate intervention effects. As a Research Scientist at Massachusetts General Hospital's Center for School Behavioral Health and an Adjunct Lecturer at the Harvard Graduate School of Education, I develop statistical methods for item-level analysis, treatment effect heterogeneity, and research synthesis, with applications in education, psychology, and health research. I also prioritize open and reproducible workflows through shared code and data resources.
 
 ## Selected Accomplishments
 
-- Built a publication portfolio that currently includes **33 peer-reviewed journal publications** and **19 working papers** under revision, review, or in preparation (see [Research](research.qmd)).
+- Built a publication portfolio that currently includes **33 peer-reviewed journal publications** and **21 working papers** under revision, review, or in preparation (see [Research](research.qmd)).
 - Received the **Spencer Dissertation Fellowship (2025-2026)** from the National Academy of Education.
 - Published methodological work in journals including *Behavior Research Methods*, *Journal of Educational and Behavioral Statistics*, *Psychological Methods*, and *Journal of Policy Analysis and Management*.
 - Delivered invited talks and workshops at institutions and conferences such as Stanford, Oxford, NCME, and IMPS (see [Presentations](presentations.qmd)).

@@ -9,6 +9,11 @@ title: "Teaching"
 - Causal inference and program evaluation
 - Research synthesis and meta-analysis
 
+## Harvard Graduate School of Education
+
+- Adjunct Lecturer - 2026-present
+- Multilevel and Longitudinal Models (S043) - 2026
+
 ## Harvard Graduate School of Education Teaching Fellowships
 
 - Statistical and Psychometric Methods for Educational Measurement (S061) - 2024
@@ -35,6 +40,7 @@ title: "Teaching"
 
 ## Mentoring and Advising
 
-- Graduate Research Advisor, Boston Conservatory at Berklee (2022-present)
+- Faculty Instructor and Graduate Research Advisor, Boston Conservatory at Berklee (2022-present)
+- Thesis Writing and Editing (M-PR 6755)
+- Thesis Revisions and Defense (M-PR 6756)
 - Statistical methods consulting and advising in applied educational and medical research settings
-
