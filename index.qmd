@@ -30,7 +30,7 @@ Education Policy and Program Evaluation
 ## Education
 
 - **PhD**, Harvard Graduate School of Education (2022-2026)  
-  Dissertation: *Synthesizing Psychometrics and Causal Inference: Applications of Latent Variable Models to Treatment Heterogeneity, Psychological Networks, and Learning Transfer*  
+  Dissertation: *Synthesizing Psychometrics and Causal Inference: Applications of Latent Variable Models to Treatment Heterogeneity, Psychological Networks, and Learning Transfer* ([doi](https://search.proquest.com/dissertations-theses/synthesizing-psychometrics-causal-inference/docview/3351309392/se-2?accountid=11311))  
   Spencer Dissertation Fellow (2025-2026)
 - **EdM**, Harvard Graduate School of Education (2016-2017)
 - **BM**, New England Conservatory of Music (2012-2016)
@@ -41,7 +41,8 @@ My work integrates psychometrics and causal inference to improve how researchers
 
 ## Selected Accomplishments
 
-- Built a publication portfolio that currently includes **33 peer-reviewed journal publications** and **21 working papers** under revision, review, or in preparation (see [Research](research.qmd)).
+- Built a publication portfolio that currently includes **35 peer-reviewed journal publications** and **19 working papers** under revision, review, or in preparation (see [Research](research.qmd)).
+- Received the **International Literacy Association Outstanding Article Award (2026)**.
 - Received the **Spencer Dissertation Fellowship (2025-2026)** from the National Academy of Education.
 - Published methodological work in journals including *Behavior Research Methods*, *Journal of Educational and Behavioral Statistics*, *Psychological Methods*, and *Journal of Policy Analysis and Management*.
 - Delivered invited talks and workshops at institutions and conferences such as Stanford, Oxford, NCME, and IMPS (see [Presentations](presentations.qmd)).

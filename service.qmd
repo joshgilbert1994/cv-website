@@ -19,8 +19,9 @@ Parentheses indicate multiple reviews at a journal.
 
 ### Journals
 
-- Journal for Research on Educational Effectiveness (3)
+- Journal for Research on Educational Effectiveness (4)
 - Journal of Educational Measurement (3)
+- Journal of Educational and Behavioral Statistics (2)
 - British Journal of Mathematical and Statistical Psychology (2)
 - BMC Psychology (2)
 - Methods in Psychology (2)
@@ -30,7 +31,6 @@ Parentheses indicate multiple reviews at a journal.
 - Applied Measurement in Education
 - Psychometrika
 - Behavior Research Methods
-- Journal of Educational and Behavioral Statistics
 - Review of Educational Research
 - Mind, Brain, and Education
 - BMC Medical Research Methodology
