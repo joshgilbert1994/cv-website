@@ -15,6 +15,7 @@ Education Policy and Program Evaluation
 - [ORCID](https://orcid.org/0000-0003-3496-2710)
 - [LinkedIn](https://www.linkedin.com/in/josh-b-gilbert/)
 - [Harvard Dataverse](https://dataverse.harvard.edu/dataverse/josh_gilbert/)
+- [Measured Response Substack](https://measuredresponse.substack.com)
 
 :::
 ::: {.home-hero-photo}
@@ -63,3 +64,4 @@ This site provides a multi-page academic profile with separate sections for:
 - [ORCID](https://orcid.org/0000-0003-3496-2710)
 - [LinkedIn](https://www.linkedin.com/in/josh-b-gilbert/)
 - [Harvard Dataverse](https://dataverse.harvard.edu/dataverse/josh_gilbert/)
+- [Measured Response Substack](https://measuredresponse.substack.com)

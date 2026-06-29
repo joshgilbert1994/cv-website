@@ -56,9 +56,9 @@ Notational conventions:
 
 #### Co-authored (Health Science/Biostatistics)
 
-- Berkowitz, S. T., **Gilbert, J. B.**, ... and Finn, A. P. (Accepted). Characterization of intravitreal anti-VEGF injection transitions across bevacizumab, biosimilar, and branded medications: IRIS (Intelligent Research in Sight) Registry study. *Journal of VitreoRetinal Diseases*.
-- Ashourizadeh, A.\*, **Gilbert, J. B.**\* ... and Armstrong, G. W. (Accepted). Impact of cataract surgery on the risk of conversion from dry to neovascular age-related macular degeneration in the IRIS Registry. *Ophthalmology*. [doi](https://www.researchsquare.com/article/rs-5505014/v2)
-- Armstrong-Carter, E., **Gilbert, J. B.**, Silfverskiold, T., Clark, L. E., and Templin, T. (2026). Adolescents provide approximately \$15 billion worth of informal family caregiving services to the United States economy. *Children and Youth Services Review*. [doi](https://doi.org/10.1016/j.childyouth.2026.109121), [code](https://researchbox.org/2759)
+- Ashourizadeh, A.\*, **Gilbert, J. B.**\* ... and Armstrong, G. W. (2026). Impact of cataract surgery on the risk of conversion from dry to neovascular age-related macular degeneration in the IRIS Registry. *Ophthalmology*. [doi](https://www.aaojournal.org/article/S0161-6420(26)00420-3/abstract)
+- Berkowitz, S. T., **Gilbert, J. B.**, ... and Finn, A. P. (2026). Characterization of intravitreal anti-VEGF injection transitions across bevacizumab, biosimilar, and branded medications: IRIS (Intelligent Research in Sight) Registry study. *Journal of VitreoRetinal Diseases*. [doi](https://doi.org/10.1177/24741264261455206)
+- Armstrong-Carter, E., **Gilbert, J. B.**, Silfverskiold, T., Clark, L. E., and Templin, T. (2026). Adolescents provide approximately \$15 billion worth of informal family caregiving services to the United States economy. *Children and Youth Services Review, 188*. [doi](https://doi.org/10.1016/j.childyouth.2026.109121), [code](https://researchbox.org/2759)
 - Ghauri, S., Ross, C., **Gilbert, J. B.** ... and Krzystolik, M. G. (2026). Timing and determinants of post-injection endophthalmitis after first-time anti-VEGF administration: A retrospective national study in the American Academy of Ophthalmology IRIS Registry. *Ophthalmology Retina*. [doi](https://doi.org/10.1016/j.oret.2026.03.015)
 - Hoyek, S., **Gilbert, J. B.** ... and Patel, N. A. (2026). Intraocular pressure changes following vitrectomy with and without phacoemulsification: An IRIS Registry analysis. *Canadian Journal of Ophthalmology, 61*(2), 300-308. [doi](https://doi.org/10.1016/j.jcjo.2025.08.008)
 - Nestorova, T., Nestorov, I., **Gilbert, J. B.**, and Howell, I. (2025). Does vibrato define genre or vice versa? A novel parametric approach to vibrato analysis. *Journal of Voice*. [doi](https://doi.org/10.1016/j.jvoice.2025.02.046)
@@ -71,7 +71,7 @@ Notational conventions:
 
 ### Conference Papers
 
-- Student, S. R., **Gilbert, J. B.**, Eze, J., Young, W. S., and Domingue, B. W. (Accepted). Item-level heterogeneous treatment effects in instrumental variables regression. *Proceedings of the International Meeting of the Psychometric Society*. [doi](https://osf.io/preprints/psyarxiv/sudgt_v3)
+- Student, S. R., **Gilbert, J. B.**, Eze, J., Young, W. S., and Domingue, B. W. (2026). Item-level heterogeneous treatment effects in instrumental variables regression. *Proceedings of the International Meeting of the Psychometric Society*. [doi](https://doi.org/10.64028/imps2025.3NE3nHCRtP)
 - Isley, C., **Gilbert, J. B.** ... and Goel, S. (2026). Assessing the quality of AI-generated exams: A large-scale field study. *Proceedings of the AAAI Conference on Artificial Intelligence, 40*(45), 38626-38634. [doi](https://ojs.aaai.org/index.php/AAAI/article/view/41205)
 - Kakarla, S.†, Yanney, L.†, **Gilbert, J. B.**‡, and Domingue, B. W.‡ (2025). Exploring item-level heterogeneous treatment effects in educational interventions through machine learning techniques and item response models. 2024 IEEE MIT Undergraduate Research Technology Conference (URTC), Cambridge, MA, USA. [doi](https://ieeexplore.ieee.org/document/10937510)
 
@@ -92,9 +92,9 @@ Notational conventions:
 
 #### Manuscripts Under Review
 
-- Ashourizadeh, A.\*, **Gilbert, J. B.**\* ... and Armstrong, G. W. (2025). Visual outcomes of cataract surgery in patients with age-related macular degeneration. Under review in *JAMA*.
+- Ashourizadeh, A.\*, **Gilbert, J. B.**\* ... and Armstrong, G. W. (2026). Visual outcomes of cataract surgery in patients with age-related macular degeneration. Under review in *Journal of Cataract & Refractive Surgery*.
 - **Gilbert, J. B.**, Kim, E. J., Himmelsbach, Z., Ulitzsch, E., and Zhang, L. (2026). Idiographic item response theory: Modeling person-specific differential item functioning in intensive longitudinal data. Under review in *Multivariate Behavioral Research*. [doi](https://osf.io/preprints/psyarxiv/qfcbu_v1)
-- Whitcomb, N., **Gilbert, J. B.**, Ross, C., Kearney, W., Lorch, A., and Lee, H. J. (2026). Comparative surgical outcomes and predictors of surgical intervention in recurrent corneal erosion: An IRIS Registry study. Under review in *American Journal of Ophthalmology*.
+- Whitcomb, N., **Gilbert, J. B.**, Ross, C., Kearney, W., Lorch, A., and Lee, H. J. (2026). Comparative surgical outcomes and predictors of surgical intervention in recurrent corneal erosion: An IRIS Registry study. Under review in *Cornea*.
 - **Gilbert, J. B.**\*, Soland, J. G.\*, and Young, W. S. (2026). Is the replication crisis a measurement crisis? Evidence from over 100 randomized trial outcomes. Under review in *Nature*. [doi](https://osf.io/preprints/psyarxiv/9zgj8_v1)
 - Cho, S-J., and **Gilbert, J. B.** (2026). Explanatory item response models with random item parameters and their applications. (Book Chapter)
 - Dahrouj, M., Awh, C., Bleicher, I. D., **Gilbert, J. B.** ... and Singh, R. P. (2026). Preoperative vision as a predictor of surgical outcomes for idiopathic epiretinal membranes: an IRIS Registry study. Under review in *Ophthalmology*.
