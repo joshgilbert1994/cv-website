@@ -2,6 +2,10 @@
 title: "Service"
 ---
 
+## Editorial Positions
+
+- Editorial Board, Applied Measurement in Education (2026-present)
+
 ## University Service
 
 - Convener, HGSE Measurement Lab (2025-2026), Harvard GSE
@@ -19,18 +23,18 @@ Parentheses indicate multiple reviews at a journal.
 
 ### Journals
 
-- Journal for Research on Educational Effectiveness (4)
+- Journal of Research on Educational Effectiveness (4)
 - Journal of Educational Measurement (3)
 - Journal of Educational and Behavioral Statistics (2)
 - British Journal of Mathematical and Statistical Psychology (2)
 - BMC Psychology (2)
 - Methods in Psychology (2)
+- Psychometrika (2)
+- Applied Measurement in Education (2)
 - AERA Open
 - Psychological Methods
 - American Psychologist
 - Advances in Methods and Practices in Psychological Science
-- Applied Measurement in Education
-- Psychometrika
 - Behavior Research Methods
 - Review of Educational Research
 - Mind, Brain, and Education
@@ -51,8 +55,8 @@ Parentheses indicate multiple reviews at a journal.
 ## Professional Affiliations
 
 - Scholars Strategy Network (SSN) ([link](https://scholars.org/scholar/joshua-baer-gilbert))
-- Institute for Quantitative Social Science (IQSS) Graduate Student Affiliate ([link](https://www.iq.harvard.edu/people/joshua-gilbert))
 - American Educational Research Association (AERA)
 - National Council on Measurement in Education (NCME)
 - Psychometric Society
 - Society for Research on Educational Effectiveness (SREE)
+- Institute for Quantitative Social Science (IQSS) Graduate Student Affiliate (2024-2026) ([link](https://www.iq.harvard.edu/people/joshua-gilbert))

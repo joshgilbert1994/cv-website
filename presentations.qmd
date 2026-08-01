@@ -45,6 +45,7 @@ Role markers:
 
 ### 2026
 
+- **Society for Research on Educational Effectiveness** (Sep. 2026). Papers presented: *Why fadeout is (probably) worse than we think: Adjusting for correlated sampling error in meta-analyses of behavioral interventions*, [paper](https://edworkingpapers.com/ai26-1394); *Measures still matter: Replicating and extending a meta-analysis of the effects of educational apps on children's reading and math skills with six years of new data*.
 - **National Council on Measurement in Education** (Apr. 2026). Paper presented: *Conditional dependencies between response time and item discrimination: An item-level meta-analysis*. [paper](https://doi.org/10.31234/osf.io/rp34w_v2)
 - **American Educational Research Association** `●` (Apr. 2026). Paper presented: *Mapping the mechanisms of interdisciplinary learning transfer from reading to math achievement: Evidence from a large-scale randomized controlled trial*. [paper](https://edworkingpapers.com/ai26-1376)
 - **American Educational Research Association** `○` (Apr. 2026). Discussant role on: *Why fadeout is (probably) worse than we think: Adjusting for correlated sampling error in meta-analyses of behavioral interventions*. [paper](https://edworkingpapers.com/ai26-1394)

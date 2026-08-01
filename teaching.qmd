@@ -24,23 +24,6 @@ title: "Teaching"
 - Applied Linear Regression (S030) - 2018, 2019
 - Designing for Learning by Creating (T550) - 2017, 2018
 
-## New England Conservatory of Music
-
-- Faculty, Music-in-Education (MIE) Department - 2018-2023
-- Faculty, School of Continuing Education - 2019-2022
-- Chair, Music-in-Education Department - 2021-2022
-
-### Courses
-
-- Music, Brain Development, and Learning (MIE 526)
-- Music-in-Education Seminar (MIE 511)
-- Introduction to Research Methods for Music Education (MIE 541)
-- Introduction to Music-in-Education (MIE 501)
-- Guided Internship Coordinator (MIE INT)
-
 ## Mentoring and Advising
 
-- Faculty Instructor and Graduate Research Advisor, Boston Conservatory at Berklee (2022-present)
-- Thesis Writing and Editing (M-PR 6755)
-- Thesis Revisions and Defense (M-PR 6756)
 - Statistical methods consulting and advising in applied educational and medical research settings
