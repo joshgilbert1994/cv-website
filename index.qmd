@@ -39,7 +39,7 @@ My work integrates psychometrics and causal inference to improve how researchers
 
 ## Selected Accomplishments
 
-- Built a publication portfolio that currently includes **37 peer-reviewed journal publications** and **19 working papers** under revision, review, or in preparation (see [Research](research.qmd)).
+- Built a publication portfolio that currently includes **38 peer-reviewed journal publications** and **17 working papers** under revision, review, or in preparation (see [Research](research.qmd)).
 - Received the **International Literacy Association Outstanding Article Award (2026)** ([link](https://www.literacyworldwide.org/get-involved/awards-recognition/awards-grants/outstanding-article-award-reading-research-quarterly)).
 - Received the **Spencer Dissertation Fellowship (2025-2026)** from the National Academy of Education.
 - Published methodological work in journals including *Behavior Research Methods*, *Journal of Educational and Behavioral Statistics*, *Psychological Methods*, and *Journal of Policy Analysis and Management*.
