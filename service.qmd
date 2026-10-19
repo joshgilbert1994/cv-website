@@ -24,18 +24,18 @@ Parentheses indicate multiple reviews at a journal.
 ### Journals
 
 - Journal of Research on Educational Effectiveness (4)
+- Behavior Research Methods (3)
 - Journal of Educational Measurement (3)
+- Psychometrika (3)
 - Journal of Educational and Behavioral Statistics (2)
 - British Journal of Mathematical and Statistical Psychology (2)
 - BMC Psychology (2)
 - Methods in Psychology (2)
-- Psychometrika (2)
 - Applied Measurement in Education (2)
 - AERA Open
 - Psychological Methods
 - American Psychologist
 - Advances in Methods and Practices in Psychological Science
-- Behavior Research Methods
 - Review of Educational Research
 - Mind, Brain, and Education
 - BMC Medical Research Methodology

@@ -21,6 +21,7 @@ Education Policy and Program Evaluation
 ## Current Roles
 
 - **Research Scientist**, Center for School Behavioral Health, Massachusetts General Hospital, Department of Psychiatry (2026-present)
+- **Instructor**, Harvard Medical School (2026-present)
 - **Adjunct Lecturer**, Harvard Graduate School of Education (2026-present)
 
 ## Education
@@ -35,11 +36,12 @@ Education Policy and Program Evaluation
 
 ## Work Summary
 
-My work integrates psychometrics and causal inference to improve how researchers measure outcomes and estimate intervention effects. As a Research Scientist in the Center for School Behavioral Health at Massachusetts General Hospital's Department of Psychiatry and an Adjunct Lecturer at the Harvard Graduate School of Education, I develop statistical methods for item-level analysis, treatment effect heterogeneity, and research synthesis, with applications in education, psychology, and health research. I also prioritize open and reproducible workflows through shared code and data resources.
+My work integrates psychometrics and causal inference to improve how researchers measure outcomes and estimate intervention effects. As a Research Scientist in the Center for School Behavioral Health at Massachusetts General Hospital's Department of Psychiatry, an Instructor at Harvard Medical School, and an Adjunct Lecturer at the Harvard Graduate School of Education, I develop statistical methods for item-level analysis, treatment effect heterogeneity, and research synthesis, with applications in education, psychology, and health research. I also prioritize open and reproducible workflows through shared code and data resources.
 
 ## Selected Accomplishments
 
-- Built a publication portfolio that currently includes **38 peer-reviewed journal publications** and **17 working papers** under revision, review, or in preparation (see [Research](research.qmd)).
+- Built a publication portfolio that currently includes **43 peer-reviewed journal publications** and **14 working papers** under revision, review, or in preparation (see [Research](research.qmd)).
+- Selected for the **Emerging Education Policy Scholars program (2027)** by the Thomas B. Fordham Institute and American Enterprise Institute ([link](https://fordhaminstitute.org/national/scholars)).
 - Received the **International Literacy Association Outstanding Article Award (2026)** ([link](https://www.literacyworldwide.org/get-involved/awards-recognition/awards-grants/outstanding-article-award-reading-research-quarterly)).
 - Received the **Spencer Dissertation Fellowship (2025-2026)** from the National Academy of Education.
 - Published methodological work in journals including *Behavior Research Methods*, *Journal of Educational and Behavioral Statistics*, *Psychological Methods*, and *Journal of Policy Analysis and Management*.
